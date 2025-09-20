@@ -1,4 +1,5 @@
-Design Opportunity
+Design Opportunity:
+
 From our research, we identified several design opportunities:
 Reduce decision fatigue by supporting shared meal planning.
 
