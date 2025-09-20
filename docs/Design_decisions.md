@@ -84,16 +84,6 @@ It kept the scope manageable while staying deeply tied to social and mobile comp
 
 _____________________________________________________________________________________________________________________________________
 
-Prototyping Journey
-   
-Low-fidelity: Paper sketches of group selection, task assignment and task completion screens.
-
-Medium-fidelity: Figma prototypes tested with classmates; iterations included clearer task assignment flow and a progress-tracking trace.
-
-Feedback: Users appreciated the fairness tracking and reminders more than recipe generation. They said the system “felt like a shared calendar, but specific to house tasks.”
-
-Next Steps: Moving toward higher-fidelity prototypes, integrating both mobile notifications and a shared display board to balance personal reminders and social visibility.
-
 
 
 
