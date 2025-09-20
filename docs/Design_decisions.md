@@ -15,7 +15,9 @@ Refined Design Opportunity:
 
 To create a display + mobile system that coordinates everyday household tasks (shopping, cooking, cleaning) in shared accommodations, while sending reminders and keeping a visible trace of contributions, to support fairness, motivation, and social accountability.
 
+
 3. Early Concepts and Iterations
+   
    
 Concept 1: Fridge-Mounted Ingredient Screen
 What we imagined:
@@ -29,6 +31,7 @@ Why:
 
 What we realised:
  The idea had potential for efficiency, but it lacked a clear social interaction component. Each person could use it alone, without collaboration. It risked becoming “just another recipe app” on a screen.
+
 
 
 Concept 2: Shared Scale + Ingredient Display
@@ -58,6 +61,7 @@ Reflection:
  The teaching team also confirmed our suspicion: although the idea had a shared element, it still wasn’t strongly social enough. The technology was doing the work, but not encouraging people to interact with each other.
 
 
+
 Concept 3: Collaboration Display Board for Shared Living
 
 What we pivoted to:
@@ -75,6 +79,7 @@ Notifications supported mobile computing by reminding individuals, while the boa
 
 It kept the scope manageable while staying deeply tied to social and mobile computing principles.
 
+_____________________________________________________________________________________________________________________________________
 
 4. Prototyping Journey
    
