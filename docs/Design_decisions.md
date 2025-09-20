@@ -17,8 +17,7 @@ Refined Design Opportunity:
 To create a display + mobile system that coordinates everyday household tasks (shopping, cooking, cleaning) in shared accommodations, while sending reminders and keeping a visible trace of contributions, to support fairness, motivation, and social accountability.
 _____________________________________________________________________________________________________________________________________
 
-
-3. Early Concepts and Iterations
+Early Concepts and Iterations
    
    
 Concept 1: Fridge-Mounted Ingredient Screen
@@ -85,7 +84,7 @@ It kept the scope manageable while staying deeply tied to social and mobile comp
 
 _____________________________________________________________________________________________________________________________________
 
-4. Prototyping Journey
+Prototyping Journey
    
 Low-fidelity: Paper sketches of group selection, task assignment and task completion screens.
 
