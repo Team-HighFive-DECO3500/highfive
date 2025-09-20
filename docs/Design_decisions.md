@@ -10,10 +10,12 @@ Increase motivation by creating small group challenges (e.g., veggie meals for 3
 
 Ensure fairness and accountability by tracking tasks (shopping, cooking, cleaning).
 
+_____________________________________________________________________________________________________________________________________
 
 Refined Design Opportunity:
 
 To create a display + mobile system that coordinates everyday household tasks (shopping, cooking, cleaning) in shared accommodations, while sending reminders and keeping a visible trace of contributions, to support fairness, motivation, and social accountability.
+_____________________________________________________________________________________________________________________________________
 
 
 3. Early Concepts and Iterations
@@ -32,6 +34,7 @@ Why:
 What we realised:
  The idea had potential for efficiency, but it lacked a clear social interaction component. Each person could use it alone, without collaboration. It risked becoming “just another recipe app” on a screen.
 
+_____________________________________________________________________________________________________________________________________
 
 
 Concept 2: Shared Scale + Ingredient Display
@@ -60,6 +63,7 @@ Reflection:
 
  The teaching team also confirmed our suspicion: although the idea had a shared element, it still wasn’t strongly social enough. The technology was doing the work, but not encouraging people to interact with each other.
 
+_____________________________________________________________________________________________________________________________________
 
 
 Concept 3: Collaboration Display Board for Shared Living
