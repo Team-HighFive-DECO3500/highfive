@@ -10,7 +10,8 @@ From our research we saw opportunities to:
 - Ensure fairness by tracking contributions.
 
 **Refined Opportunity:**  
-A display + mobile system to coordinate household tasks (shopping, cooking, cleaning), with reminders and visible contribution tracking for fairness and accountability.
+A display + mobile system to coordinate household tasks (shopping, cooking, cleaning), with reminders and visible contribution tracking for fairness and accountability.  
+_(Problem space: unbalanced responsibility share in shared kitchens among students living in shared accommodation.)_
 
 ---
 
