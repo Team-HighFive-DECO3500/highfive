@@ -1,4 +1,4 @@
-Design Opportunity:
+# Design Opportunity:
 
 From our research, we identified several design opportunities:
 
