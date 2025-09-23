@@ -1,7 +1,3 @@
-Here you go — same content, cleaned into a compact, paste-ready layout:
-
----
-
 ### **Scenario 1 – The Morning Rush**
 
 Sarah walks into the kitchen at 7:30 AM, already running late for work. She notices the coffee machine is empty. For a moment, she considers skipping it but then remembers Mike’s note from last night: “Coffee machine running low.” She decides to quickly refill the water tank, knowing others will need coffee too. With her cup in hand, she heads out the door and notices the shopping note about milk. She makes a mental plan to pick some up after work.
