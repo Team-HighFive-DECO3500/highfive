@@ -2,13 +2,13 @@
 
 From our research, we identified several design opportunities:
 
-Reduce decision fatigue by supporting shared meal planning.
+- Reduce decision fatigue by supporting shared meal planning.
 
-Save time and money through collective shopping and cooking.
+- Save time and money through collective shopping and cooking.
 
-Increase motivation by creating small group challenges (e.g., veggie meals for 3 days).
+- Increase motivation by creating small group challenges (e.g., veggie meals for 3 days).
 
-Ensure fairness and accountability by tracking tasks (shopping, cooking, cleaning).
+- Ensure fairness and accountability by tracking tasks (shopping, cooking, cleaning).
 
 _____________________________________________________________________________________________________________________________________
 
@@ -51,11 +51,11 @@ How we tested:
 
 What we found during evaluation:
 
-Users were confused about how the system worked.
+- Users were confused about how the system worked.
 
-The recipe suggestions were too abstract and didn’t feel actionable.
+- The recipe suggestions were too abstract and didn’t feel actionable.
 
-Testers reported that while it was “interesting,” it wasn’t clearly more useful than existing apps.
+- Testers reported that while it was “interesting,” it wasn’t clearly more useful than existing apps.
 
 
 Reflection:
@@ -74,13 +74,13 @@ What we pivoted to:
 Why this worked better:
 
 
-It directly addressed the interview insight that “people forget tasks after 1–2 weeks.”
+- It directly addressed the interview insight that “people forget tasks after 1–2 weeks.”
 
-It introduced visible accountability; everyone could see who had done their part.
+- It introduced visible accountability; everyone could see who had done their part.
 
-Notifications supported mobile computing by reminding individuals, while the board displayed social traces of contributions.
+- Notifications supported mobile computing by reminding individuals, while the board displayed social traces of contributions.
 
-It kept the scope manageable while staying deeply tied to social and mobile computing principles.
+- It kept the scope manageable while staying deeply tied to social and mobile computing principles.
 
 _____________________________________________________________________________________________________________________________________
 
