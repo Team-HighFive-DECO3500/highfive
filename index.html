@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KitchenKat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        peach: '#F7D49F',
+                        rose: '#F0C5BE',
+                        sand: '#F9E6C7',
+                        darkbg: '#121212',
+                        skyblue: '#7DB1FF',
+                        lightpeach: '#FAE5BC',
+                        lightrose: '#F5D5D0',
+                        softyellow: '#F5DC9F'
+                    },
+                    borderRadius: {
+                        'xl2': '1.5rem',
+                        'xl3': '1.75rem'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+    
+    <!-- Dashboard View -->
+    <div id="dashboard-view" class="view active">
+        <!-- Hero Section -->
+        <div class="max-w-7xl mx-auto px-6 py-8">
+            <div class="bg-peach rounded-xl3 p-12 relative overflow-hidden shadow-lg">
+                <div class="flex justify-between items-start">
+                    <div class="flex-1">
+                        <div class="flex items-center gap-2 mb-4">
+                            <div class="w-3 h-3 bg-skyblue rounded-full"></div>
+                            <span class="text-sm font-medium uppercase tracking-wide">Kitchen Kat</span>
+                        </div>
+                        <h1 class="text-5xl font-bold mb-2">Keep your kitchen in<br>the flow</h1>
+                        <p class="text-lg text-gray-700 mb-8">Cook, clean, coordinate - seamlessly</p>
+                        
+                        <div class="mb-6">
+                            <p class="font-medium mb-3">Kitchen Currently Active?</p>
+                            <div class="flex gap-4">
+                                <button class="px-8 py-3 bg-darkbg text-white rounded-full font-medium hover:bg-gray-800 transition-all hover:-translate-y-0.5 shadow-md">Join Queue</button>
+                                <button class="px-8 py-3 bg-lightrose text-gray-800 rounded-full font-medium hover:bg-rose transition-all hover:-translate-y-0.5 shadow-md">Get Notified</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="relative">
+                        <div class="w-96 h-96 bg-skyblue rounded-full flex items-center justify-center mascot-hover shadow-xl">
+                            <svg class="w-72 h-72" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Dog Mascot SVG -->
+                                <ellipse cx="100" cy="140" rx="35" ry="45" fill="#F5C542"/>
+                                <circle cx="100" cy="80" r="35" fill="#E8B534"/>
+                                <circle cx="88" cy="75" r="4" fill="#333"/>
+                                <circle cx="112" cy="75" r="4" fill="#333"/>
+                                <path d="M 95 85 Q 100 88 105 85" stroke="#333" stroke-width="2" fill="none"/>
+                                <ellipse cx="80" cy="65" rx="12" ry="20" fill="#C89A2E"/>
+                                <ellipse cx="120" cy="65" rx="12" ry="20" fill="#C89A2E"/>
+                                <path d="M 90 50 Q 100 45 110 50" stroke="#8B6914" stroke-width="2" fill="none"/>
+                                <rect x="85" y="110" width="30" height="25" rx="3" fill="#333"/>
+                                <circle cx="100" cy="122" r="8" fill="#F5C542"/>
+                                <ellipse cx="70" cy="165" rx="8" ry="12" fill="#E8B534"/>
+                                <ellipse cx="130" cy="165" rx="8" ry="12" fill="#E8B534"/>
+                                <path d="M 75 140 Q 70 145 75 150" stroke="#C89A2E" stroke-width="8" stroke-linecap="round" fill="none"/>
+                                <rect x="88" y="35" width="24" height="8" rx="4" fill="#E0E0E0"/>
+                                <rect x="95" y="28" width="10" height="15" rx="2" fill="#C0C0C0"/>
+                                <ellipse cx="130" cy="130" rx="6" ry="10" fill="#FFB6C1"/>
+                                <ellipse cx="145" cy="140" rx="4" ry="6" fill="#FFD700"/>
+                            </svg>
+                        </div>
+                        <div class="absolute bottom-4 right-4 flex items-center gap-2">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Ccircle cx='20' cy='20' r='20' fill='%23E8B534'/%3E%3C/svg%3E" class="w-10 h-10 rounded-full border-2 border-white shadow-md" alt="User">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Ccircle cx='20' cy='20' r='20' fill='%237DB1FF'/%3E%3C/svg%3E" class="w-10 h-10 rounded-full border-2 border-white shadow-md -ml-3" alt="User">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Ccircle cx='20' cy='20' r='20' fill='%2366CC99'/%3E%3C/svg%3E" class="w-10 h-10 rounded-full border-2 border-white shadow-md -ml-3" alt="User">
+                            <div class="w-10 h-10 rounded-full bg-white border-2 border-gray-200 flex items-center justify-center text-xs font-medium -ml-3 shadow-md">+1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute top-6 right-6">
+                    <button class="w-10 h-10 flex items-center justify-center text-gray-700 hover:bg-black/5 rounded-full transition">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Greeting -->
+            <div class="mt-8 mb-6">
+                <h2 class="text-2xl font-semibold">Hey, <span class="font-bold">Roomie</span></h2>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="grid grid-cols-4 gap-6">
+                <!-- Task Manager Card -->
+                <div class="bg-lightrose rounded-xl3 p-6 shadow-md hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold">Task Manager</h3>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"/></svg>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-center gap-2 mb-2">
+                            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23E8B534'/%3E%3C/svg%3E" class="w-8 h-8 rounded-full" alt="KitchenKat">
+                        </div>
+                        <ul class="space-y-1 text-sm">
+                            <li class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                                <span>1 task needs attention</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-yellow-500"></span>
+                                <span>1 in progress</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-green-500"></span>
+                                <span>3 available</span>
+                            </li>
+                        </ul>
+                        <p class="text-xs text-gray-600 mt-2">— KitchenKat</p>
+                    </div>
+                    <button id="check-tasks-btn" class="w-full py-2.5 bg-softyellow rounded-full font-medium hover:bg-yellow-400 transition-all hover:-translate-y-0.5 shadow-sm">Check Tasks</button>
+                </div>
+
+                <!-- Supply Stock Card -->
+                <div class="bg-rose rounded-xl3 p-6 shadow-md hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold">Supply Stock</h3>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z"/></svg>
+                    </div>
+                    <div class="mb-4">
+                        <div class="flex items-center gap-2 mb-2">
+                            <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none"><ellipse cx="16" cy="20" rx="6" ry="8" fill="#66CC88"/><circle cx="16" cy="10" r="4" fill="#66CC88"/><circle cx="14" cy="9" r="1.5" fill="#333"/><circle cx="18" cy="9" r="1.5" fill="#333"/></svg>
+                        </div>
+                        <ul class="space-y-1 text-sm">
+                            <li class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                                <span>2 Urgent needs</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-yellow-500"></span>
+                                <span>3 Running Low</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-green-500"></span>
+                                <span>7 Well Stocked</span>
+                            </li>
+                        </ul>
+                        <p class="text-xs text-gray-600 mt-2">— SupplyWorm</p>
+                    </div>
+                    <button id="supply-status-btn" class="w-full py-2.5 bg-softyellow rounded-full font-medium hover:bg-yellow-400 transition-all hover:-translate-y-0.5 shadow-sm">Supply Status</button>
+                </div>
+
+                <!-- Recent Activities Card -->
+                <div class="bg-lightpeach rounded-xl3 p-6 shadow-md hover:shadow-lg hover:-translate-y-1 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold">Recent Activities</h3>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/><path fill-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm9.707 5.707a1 1 0 00-1.414-1.414L9 12.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                    </div>
+                    <div id="recent-activities" class="space-y-3 mb-4">
+                        <div class="activity-shimmer"></div>
+                    </div>
+                    <button class="w-full py-1 text-gray-600 font-medium">•••</button>
+                </div>
+
+                <!-- House Notes Card -->
+                <div class="bg-sand rounded-xl3 p-6 shadow-md hover:shadow-lg hover:-translate-y-1 transition-all relative">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-xl font-bold">House Notes</h3>
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"/><path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"/></svg>
+                    </div>
+                    <div id="house-notes" class="mb-4 space-y-3">
+                        <!-- Notes will be inserted here -->
+                    </div>
+                    <button id="add-note-btn" class="absolute bottom-6 right-6 w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-md hover:shadow-lg hover:-translate-y-0.5 transition-all">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task Manager View -->
+    <div id="task-manager-view" class="view">
+        <div class="max-w-7xl mx-auto px-6 py-8">
+            <div class="grid grid-cols-3 gap-6">
+                <!-- Left Column -->
+                <div class="col-span-1 bg-peach rounded-xl3 p-8 shadow-lg">
+                    <button id="back-from-tasks" class="mb-6 w-10 h-10 flex items-center justify-center hover:bg-black/5 rounded-full transition">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                    </button>
+                    
+                    <div class="text-center mb-8">
+                        <div class="flex items-center justify-center mb-2">
+                            <div class="w-3 h-3 bg-skyblue rounded-full mr-2"></div>
+                            <span class="text-xs font-medium uppercase tracking-wide">Kitchen Kat</span>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center mb-8">
+                        <div class="w-48 h-48 bg-skyblue rounded-full flex items-center justify-center mascot-hover shadow-xl">
+                            <svg class="w-36 h-36" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="100" cy="140" rx="35" ry="45" fill="#F5C542"/>
+                                <circle cx="100" cy="80" r="35" fill="#E8B534"/>
+                                <circle cx="88" cy="75" r="4" fill="#333"/>
+                                <circle cx="112" cy="75" r="4" fill="#333"/>
+                                <path d="M 95 85 Q 100 88 105 85" stroke="#333" stroke-width="2" fill="none"/>
+                                <ellipse cx="80" cy="65" rx="12" ry="20" fill="#C89A2E"/>
+                                <ellipse cx="120" cy="65" rx="12" ry="20" fill="#C89A2E"/>
+                                <path d="M 90 50 Q 100 45 110 50" stroke="#8B6914" stroke-width="2" fill="none"/>
+                                <rect x="85" y="110" width="30" height="25" rx="3" fill="#333"/>
+                                <circle cx="100" cy="122" r="8" fill="#F5C542"/>
+                                <ellipse cx="70" cy="165" rx="8" ry="12" fill="#E8B534"/>
+                                <ellipse cx="130" cy="165" rx="8" ry="12" fill="#E8B534"/>
+                                <path d="M 75 140 Q 70 145 75 150" stroke="#C89A2E" stroke-width="8" stroke-linecap="round" fill="none"/>
+                                <rect x="88" y="35" width="24" height="8" rx="4" fill="#E0E0E0"/>
+                                <rect x="95" y="28" width="10" height="15" rx="2" fill="#C0C0C0"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="text-center mb-8">
+                        <h2 class="text-2xl font-bold mb-1">KitchenKat Task Manager</h2>
+                        <p class="text-gray-700">I shall keep an eye on you</p>
+                    </div>
+
+                    <!-- Task Sections -->
+                    <div class="space-y-6">
+                        <div class="bg-lightrose rounded-xl2 p-4">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="text-sm font-bold">Immediate (Today)</span>
+                                <span class="w-2 h-2 rounded-full bg-red-500"></span>
+                            </div>
+                            <div id="immediate-tasks" class="space-y-2 min-h-[60px] task-drop-zone" data-priority="Today">
+                                <!-- Tasks will be inserted here -->
+                            </div>
+                        </div>
+
+                        <div class="bg-lightrose rounded-xl2 p-4">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="text-sm font-bold">This Week</span>
+                                <span class="w-2 h-2 rounded-full bg-yellow-500"></span>
+                            </div>
+                            <div id="week-tasks" class="space-y-2 min-h-[60px] task-drop-zone" data-priority="This Week">
+                                <!-- Tasks will be inserted here -->
+                            </div>
+                        </div>
+
+                        <div class="bg-lightrose rounded-xl2 p-4">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="text-sm font-bold">Monthly/Deep Clean</span>
+                                <span class="w-2 h-2 rounded-full bg-green-500"></span>
+                            </div>
+                            <div id="monthly-tasks" class="space-y-2 min-h-[60px] task-drop-zone" data-priority="Monthly">
+                                <!-- Tasks will be inserted here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-span-2 space-y-6">
+                    <!-- Task Form -->
+                    <div class="bg-lightrose rounded-xl3 p-8 shadow-lg">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-2xl font-bold">Task View</h3>
+                            <button class="w-10 h-10 flex items-center justify-center hover:bg-black/5 rounded-full transition">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"/></svg>
+                            </button>
+                        </div>
+
+                        <form id="task-form" class="space-y-4">
+                            <div>
+                                <label class="block w-full py-3 px-4 bg-softyellow rounded-xl text-center font-medium mb-3">Task Description</label>
+                                <input type="text" id="task-description" class="w-full py-3 px-4 rounded-xl border-2 border-gray-300 focus:border-gray-600 focus:outline-none" placeholder="Enter task description">
+                            </div>
+
+                            <div>
+                                <label class="block w-full py-3 px-4 bg-softyellow rounded-xl text-center font-medium mb-3">Category</label>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="category" value="Cleaning" checked class="w-4 h-4">
+                                        <span>Cleaning</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="category" value="Supplies" class="w-4 h-4">
+                                        <span>Supplies</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="category" value="Maintenance" class="w-4 h-4">
+                                        <span>Maintenance</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="category" value="Cooking" class="w-4 h-4">
+                                        <span>Cooking</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 cursor-pointer col-span-2">
+                                        <input type="radio" name="category" value="Organization" class="w-4 h-4">
+                                        <span>Organization</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block w-full py-3 px-4 bg-softyellow rounded-xl text-center font-medium mb-3">Priority</label>
+                                <div class="flex gap-4 justify-center">
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="priority" value="Today" checked class="w-4 h-4">
+                                        <span>Today</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="priority" value="This Week" class="w-4 h-4">
+                                        <span>This Week</span>
+                                    </label>
+                                    <label class="flex items-center gap-2 cursor-pointer">
+                                        <input type="radio" name="priority" value="Monthly" class="w-4 h-4">
+                                        <span>Monthly</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="flex gap-4 pt-2">
+                                <button type="submit" class="flex-1 py-3 bg-softyellow rounded-full font-medium hover:bg-yellow-400 transition-all hover:-translate-y-0.5 shadow-sm">Add Task</button>
+                                <button type="button" id="cancel-task" class="flex-1 py-3 bg-sand rounded-full font-medium hover:bg-yellow-100 transition-all hover:-translate-y-0.5 shadow-sm">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Task Complete Zone -->
+                    <div class="bg-lightrose rounded-xl3 p-8 shadow-lg">
+                        <h3 class="text-2xl font-bold mb-6 text-center">Task Complete</h3>
+                        <div id="complete-zone" class="min-h-[200px] border-4 border-dashed border-gray-300 rounded-xl2 flex items-center justify-center task-drop-zone complete-zone" data-priority="complete">
+                            <p class="text-gray-500 text-center">Drag/Drop task complete</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Avatar Column -->
+                <div class="fixed right-8 top-1/2 -translate-y-1/2 flex flex-col gap-4">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Ccircle cx='24' cy='24' r='24' fill='%23E8B534'/%3E%3C/svg%3E" class="w-12 h-12 rounded-full border-2 border-white shadow-md" alt="User">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Ccircle cx='24' cy='24' r='24' fill='%237DB1FF'/%3E%3C/svg%3E" class="w-12 h-12 rounded-full border-2 border-white shadow-md" alt="User">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Ccircle cx='24' cy='24' r='24' fill='%2366CC99'/%3E%3C/svg%3E" class="w-12 h-12 rounded-full border-2 border-white shadow-md" alt="User">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Ccircle cx='24' cy='24' r='24' fill='%23F0C5BE'/%3E%3C/svg%3E" class="w-12 h-12 rounded-full border-2 border-white shadow-md" alt="User">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48'%3E%3Ccircle cx='24' cy='24' r='24' fill='%23FFB6C1'/%3E%3C/svg%3E" class="w-12 h-12 rounded-full border-2 border-white shadow-md" alt="User">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Supply View -->
+    <div id="supply-view" class="view">
+        <div class="max-w-7xl mx-auto px-6 py-8">
+            <!-- Hero Section -->
+            <div class="bg-peach rounded-xl3 p-12 relative overflow-hidden shadow-lg mb-8">
+                <button id="back-from-supply" class="absolute top-6 left-6 w-10 h-10 flex items-center justify-center hover:bg-black/5 rounded-full transition">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                </button>
+                <button class="absolute top-6 right-6 w-10 h-10 flex items-center justify-center hover:bg-black/5 rounded-full transition">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"/></svg>
+                </button>
+
+                <div class="flex items-center gap-12">
+                    <div class="w-80 h-80 rounded-full overflow-hidden flex items-center justify-center mascot-hover shadow-xl" style="background: linear-gradient(135deg, #FFE5A0 0%, #FFD080 50%, #FF9580 100%);">
+                        <svg class="w-64 h-64" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Worm Mascot SVG -->
+                            <ellipse cx="100" cy="180" rx="15" ry="8" fill="#4A7C59" opacity="0.3"/>
+                            <circle cx="100" cy="160" r="18" fill="#66CC88"/>
+                            <circle cx="100" cy="135" r="16" fill="#66CC88"/>
+                            <circle cx="100" cy="112" r="14" fill="#66CC88"/>
+                            <circle cx="100" cy="92" r="13" fill="#5EBB7D"/>
+                            <circle cx="100" cy="74" r="12" fill="#5EBB7D"/>
+                            <ellipse cx="100" cy="56" rx="14" ry="16" fill="#5EBB7D"/>
+                            <circle cx="94" cy="52" r="6" fill="#333"/>
+                            <circle cx="106" cy="52" r="6" fill="#333"/>
+                            <circle cx="94" cy="52" r="2.5" fill="white"/>
+                            <circle cx="106" cy="52" r="2.5" fill="white"/>
+                            <ellipse cx="100" cy="62" rx="4" ry="2" fill="#FF6B6B"/>
+                            <circle cx="85" cy="48" r="8" fill="#F5C542" opacity="0.8"/>
+                            <circle cx="87" cy="46" r="3" fill="#333"/>
+                            <path d="M 75 75 Q 70 85 75 95" stroke="#5EBB7D" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.6"/>
+                            <rect x="90" y="130" width="20" height="15" rx="2" fill="#FFF" opacity="0.9" transform="rotate(-10 100 137)"/>
+                            <path d="M 92 135 L 95 140 L 108 133" stroke="#333" stroke-width="1.5" fill="none" transform="rotate(-10 100 137)"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="flex-1">
+                        <h1 class="text-5xl font-bold mb-2">SupplyWorm will<br>manage your logistics!</h1>
+                        <p class="text-lg text-gray-700">View, Report, List - seamlessly</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Supply Cards -->
+            <div class="grid grid-cols-2 gap-6">
+                <!-- Supply Status Card -->
+                <div class="bg-lightpeach rounded-xl3 p-8 shadow-lg">
+                    <div class="flex items-center justify-between mb-6">
+                        <h3 class="text-2xl font-bold">Supply Status</h3>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM14 11a1 1 0 011 1v1h1a1 1 0 110 2h-1v1a1 1 0 11-2 0v-1h-1a1 1 0 110-2h1v-1a1 1 0 011-1z"/></svg>
+                    </div>
+
+                    <div id="supply-list" class="space-y-4">
+                        <!-- Supply items will be inserted here -->
+                    </div>
+                </div>
+
+                <!-- Report Supply Issue Card -->
+                <div class="bg-lightrose rounded-xl3 p-8 shadow-lg">
+                    <h3 class="text-2xl font-bold mb-6">Report Supply Issue</h3>
+
+                    <form id="supply-form" class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2">What's running low?</label>
+                            <select id="supply-item" class="w-full py-3 px-4 rounded-xl border-2 border-gray-300 focus:border-gray-600 focus:outline-none bg-white">
+                                <option value="">Select an item</option>
+                                <option value="Dish soap">Dish soap</option>
+                                <option value="Floor Cleaner">Floor Cleaner</option>
+                                <option value="Coffee beans">Coffee beans</option>
+                                <option value="Toilet paper">Toilet paper</option>
+                                <option value="Water Filter Cartridge">Water Filter Cartridge</option>
+                                <option value="Trash Bags">Trash Bags</option>
+                                <option value="Paper Towels">Paper Towels</option>
+                                <option value="Dishwasher Tablets">Dishwasher Tablets</option>
+                                <option value="Sponges">Sponges</option>
+                                <option value="All-purpose cleaner">All-purpose cleaner</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium mb-3">Status:</label>
+                            <div class="flex gap-4">
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="radio" name="status" value="Running low" checked class="w-4 h-4">
+                                    <span>Running low</span>
+                                </label>
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="radio" name="status" value="Empty" class="w-4 h-4">
+                                    <span>Empty</span>
+                                </label>
+                                <label class="flex items-center gap-2 cursor-pointer">
+                                    <input type="radio" name="status" value="Expired" class="w-4 h-4">
+                                    <span>Expired</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Add note:</label>
+                            <input type="text" id="supply-note" class="w-full py-3 px-4 rounded-xl border-2 border-gray-300 focus:border-gray-600 focus:outline-none" placeholder="Optional note">
+                        </div>
+
+                        <div class="flex gap-4 pt-2">
+                            <button type="submit" class="flex-1 py-3 bg-softyellow rounded-full font-medium hover:bg-yellow-400 transition-all hover:-translate-y-0.5 shadow-sm">Report</button>
+                            <button type="button" id="cancel-supply" class="flex-1 py-3 bg-sand rounded-full font-medium hover:bg-yellow-100 transition-all hover:-translate-y-0.5 shadow-sm">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Note Modal -->
+    <div id="note-modal" class="modal">
+        <div class="modal-content bg-lightrose rounded-xl3 p-8 shadow-2xl max-w-md w-full">
+            <h3 class="text-2xl font-bold mb-4">Add House Note</h3>
+            <form id="note-form">
+                <textarea id="note-text" class="w-full py-3 px-4 rounded-xl border-2 border-gray-300 focus:border-gray-600 focus:outline-none mb-4" rows="4" placeholder="Enter your note..."></textarea>
+                <div class="flex gap-4">
+                    <button type="submit" class="flex-1 py-3 bg-softyellow rounded-full font-medium hover:bg-yellow-400 transition-all hover:-translate-y-0.5 shadow-sm">Add Note</button>
+                    <button type="button" id="cancel-note" class="flex-1 py-3 bg-sand rounded-full font-medium hover:bg-yellow-100 transition-all hover:-translate-y-0.5 shadow-sm">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <p id="toast-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
