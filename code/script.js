@@ -1,8 +1,9 @@
-/* ---------- App state & helpers ---------- */
 /* AI tool like (ChatGPT) was used for guidance and code generation in selective areas, mainly to handle complex logic and link interactive views across pages (e.g., dashboard → task manager → supply view). They also helped draft drag-and-drop functions, localStorage setup, and repetitive render methods for tasks, supplies, and notes.
 All AI-assisted code was reviewed, tested, and modified to ensure functionality, originality, and academic integrity.
 Core logic, UI design, colour themes, and user interactions were human-designed and implemented manually.
 const MEMBER_COLORS = ['#E8B534','#7DB1FF','#66CC99','#F0C5BE','#FFB6C1','#FFD166','#B5EAEA','#C3F0CA']; */
+
+/* ---------- App state & helpers ---------- */
 
 // Order: You=0, Priya=1, Kiran=2, Sadhika=3, Cora=4
 const defaultMembers = [
