@@ -420,6 +420,27 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 ### Summarised Table
 
 
+### Things that worked out
+
+
+### Social & Mobile Computing Principles: Theory-to-Practice Validation
+
+
+| Validated Concept | Tradeshow Evidence | P1 Evidence | P2 Evidence | Why It Worked |
+|--------------------|--------------------|--------------|--------------|----------------|
+| **Social Aspect** | • 100% comfortable with information sharing (initials, updates)• No privacy concerns raised | • "By calling the names, we would be more responsible"• Prefers named attribution over anonymous | • Understood attribution system• Accepted visible contributions | Visibility promoted fairness and accountability without privacy concerns; users trusted transparent interaction within known groups. |
+| **Fairness through Visibility** | • 60%+ agreed system helps share kitchen work fairly • Recognized value in making work visible | • "Without the system, it'd be really hard to know if someone has done the duty or not" | • "Better than group chat - no need to nag someone" | Making invisible household labor visible balanced effort and reduced tension, aligning with fairness principles. |
+| **Articulation Work Made Visible** | • Users appreciated seeing "who noticed what" | • Valued supply reporting attribution | • Noticed Recent Activities showing coordination | Surfacing behind-the-scenes coordination reduced misunderstandings and distributed cognitive effort evenly. |
+| **Beyond Being There** | • Preferred asynchronous coordination | • "In group chat, people just don't respond... with KitchenKat, they would be more responsible" | • "No need to nag someone" | Persistent, asynchronous visibility replaced the need for real-time messaging, supporting smoother coordination. |
+| **Context-Aware Multi-Modal Design** | • Users wanted both phone and screen access | • "Both ways should work... you're always using your phone" | • Prefers both mobile and physical screen | Offering both mobile and fixed access matched users’ shifting contexts between home and on-the-go use. |
+| **Ambient Awareness (Partial)** | • 60% found main screen easy to understand | • Could describe "whose task is what" from a glance | • Noticed Recent Activities without deep interaction | When not overloaded by text, users could understand household status at a glance — partial success in glanceability. |
+
+
+
+### Improvements
+
+
+
 | Issue | P1 | P2 | Tradeshow | Severity | Theory Gap | Notes |
 |--------|----|----|-----------|-------------|--------|--------|
 | Too much text | ✓ | ✓ | ✓ | Critical | Glanceability, Easy to understand| Interface requires simplification for better readability and visual hierarchy. |
