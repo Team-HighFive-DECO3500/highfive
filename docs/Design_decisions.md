@@ -1,89 +1,78 @@
-# Design Opportunity:
+**Design Process Overview**
 
-From our research, we identified several design opportunities:
+**Project Introduction**
 
-- Reduce decision fatigue by supporting shared meal planning.
+KitchenKat is a digital wall-mounted display designed to support household coordination in shared student accommodation and sharehouses. The system helps housemates manage kitchen tasks, track supplies, and stay aware of household activities through a calm, ambient interface that reduces friction and promotes fairness in shared living spaces. Rather than adding complexity to already busy student lives, KitchenKat acts as a quiet background presence that makes invisible household work visible and ensures everyone contributes fairly to shared domestic responsibilities.
 
-- Save time and money through collective shopping and cooking.
+**Design Principles**
 
-- Increase motivation by creating small group challenges (e.g., veggie meals for 3 days).
+Our design is grounded in core principles of social and mobile computing that shaped every decision throughout the development process. From a social computing perspective, we focused on awareness by making invisible household work visible through activity traces and task status. We emphasized coordination to support asynchronous collaboration without requiring constant communication between housemates. Our approach addresses articulation work by reducing the cognitive effort of dividing, allocating, and tracking household responsibilities. Fairness was central to our design, ensuring equitable distribution of domestic labour through transparent task assignment. We also embraced social translucence, carefully balancing visibility and accountability with privacy and comfort so the system feels supportive rather than surveillant.
 
-- Ensure fairness and accountability by tracking tasks (shopping, cooking, cleaning).
+From a mobile computing perspective, we designed KitchenKat to be context-aware, responding intelligently to household presence, patterns, and needs. The system provides ambient information by displaying relevant details peripherally without demanding constant attention. We implemented just-in-time support that provides assistance at the moment of need, such as when someone enters the kitchen. Most importantly, we ensured seamless integration so the technology fits naturally into existing household routines rather than disrupting them. These principles guided us away from complex feature-heavy designs toward a calm, supportive system that truly serves the social dynamics of shared living.
 
-_____________________________________________________________________________________________________________________________________
+**Initial Concept and Evolution**
 
-Refined Design Opportunity:
+**First Iteration: Collaborative Cooking Platform**
 
-To create a display + mobile system that coordinates everyday household tasks (shopping, cooking, cleaning) in shared accommodations, while sending reminders and keeping a visible trace of contributions, to support fairness, motivation, and social accountability.
-_____________________________________________________________________________________________________________________________________
+Our initial design focused on a collaborative cooking platform where users could scan ingredients they owned, join cuisine-specific cooking groups, chat with group members to coordinate recipes, collectively create shopping lists and divide cooking tasks, and comment on and modify shared recipes. At first glance, this seemed like a comprehensive solution to healthy eating in shared accommodation. However, as we developed this concept further and presented it to tutors, significant challenges emerged that forced us to reconsider our entire approach.
 
-Early Concepts and Iterations
-   
-   
-Concept 1: Fridge-Mounted Ingredient Screen
-What we imagined:
+The first major challenge was complexity. We had created a system with too many features that caused cognitive overload for users who simply wanted to figure out what to eat for dinner. The critical mass problem became evident as the system required many active users to provide value, falling directly into Grudin's Challenge #2 about groupware adoption. There was also a severe work-benefit disparity where early adopters had to do significant work through scanning items and entering data with minimal immediate benefit in return, exemplifying Grudin's Challenge #1. Most critically, tutors noted the design was not sufficiently social. Despite having many collaborative features, we had focused on functionality rather than supporting actual social coordination practices that happen naturally in shared households.
 
- A screen attached to the fridge that detects ingredients inside (through manual input or scanning) and shows recipes based on available items + expiry dates.
+<img width="1500" height="2000" alt="image" src="https://github.com/user-attachments/assets/9a8afc3a-cb85-4a34-8650-4b1b2d022f83" />
 
+**Design Pivot: From Complexity to Calm Coordination**
 
-Why:
- We wanted to reduce food waste and help students quickly decide on meals.
+Following tutor feedback and deep reflection on course readings, particularly Schmidt's critique of vague "awareness" concepts and Grudin's fairness principles, we returned to our research findings and design opportunities. We realized the core coordination challenge wasn't about forming cooking groups or generating recipes. It was about making everyday household maintenance visible, fair, and effortless. We had been designing for an idealized version of shared living rather than the messy, busy reality students actually experience.
 
+Key insights emerged from revisiting our annotations and research. Students struggle with decision fatigue and unclear responsibility distribution, not with finding recipes online. Invisible domestic labour causes resentment when some housemates contribute more than others, creating tension that undermines the social bonds we wanted to support. Effective coordination requires ambient awareness without intrusive notifications, as Schmidt argued in his 2002 paper. Most importantly, we learned that systems must provide immediate individual value, not just collective benefits, because people won't maintain systems that only benefit the group at their personal expense, as Grudin explained in 1994. These insights fundamentally redirected our design toward simplicity and situational support.
 
-What we realised:
- The idea had potential for efficiency, but it lacked a clear social interaction component. Each person could use it alone, without collaboration. It risked becoming “just another recipe app” on a screen.
+#**Current Design: KitchenKat**
 
-_____________________________________________________________________________________________________________________________________
+**Core Functionality**
 
+The dashboard serves as the main screen providing at-a-glance household awareness through four key components carefully designed to support peripheral attention. Urgent alerts use smart sensor integration to display immediate needs like "Bin is full—needs taking out—Kiran" with attribution that makes responsibility clear without being accusatory. The task manager preview uses color-coded status indicators showing what's urgent, what's due this week, and what's scheduled monthly, allowing quick visual scanning without detailed interaction. Supply stock provides three-tier visibility showing urgent needs, items running low, and well-stocked supplies to prevent last-minute shortages. Recent activities display activity traces that create gentle accountability and recognition for completed work, addressing the invisible labour problem we identified in research. House notes enable lightweight asynchronous communication for quick reminders and updates, replacing ephemeral fridge notes with persistent visible messages.
 
-Concept 2: Shared Scale + Ingredient Display
-What we imagined:
- A shared kitchen scale with a mounted display board. Each housemate could scan or enter the ingredients they had. The display would then combine everyone’s inputs and suggest quick, collective recipes.
+The task manager allows housemates to create tasks with specific categories including cleaning, supplies, cooking, maintenance, and organization. Users set priority levels as immediate, this week, or monthly, helping reduce decision fatigue about what to tackle first. Tasks can be assigned manually or through a roster system that automates fair distribution. The drag-and-drop completion interface creates a satisfying interaction that makes finishing tasks feel rewarding rather than just another chore. Individual attribution using initials ensures everyone's contributions are recognized without creating competitive pressure, implementing social translucence principles we learned from Erickson and Kellogg.
 
+SupplyWorm manages household supplies through a friendly, non-judgmental interface. Users report supply issues with urgency levels indicating whether items are running low, empty, or expired. Community notes provide context and updates so housemates can communicate about specific supply situations. Attribution shows who noticed problems, effectively distributing the mental load of tracking household supplies across all residents rather than burdening one organized person. Visual status indicators reduce cognitive effort by making information glanceable, supporting the ambient information principle from mobile computing theory.
 
-Why:
- This version started to embed collaboration, students could see a shared pool of ingredients and cook together.
+**Design Rationale**
+Our current design addresses previous challenges by fundamentally restructuring how value is created and distributed. Reducing barriers to entry was paramount. The system requires no account setup or complex onboarding, respects housemates' time by keeping interactions brief, and ensures every interaction provides immediate personal value rather than just group benefit. Automatic activity logging eliminates manual status updates that created work-benefit disparities in our first design. This approach directly addresses Grudin's critical mass problem by making the system useful even for early adopters when few others are participating.
 
+We focused on supporting natural practices rather than imposing new behaviors. Asynchronous coordination respects varied schedules, acknowledging that students have different class times, work shifts, and social commitments, following principles from Hollan and Stornetta's 1992 "Beyond Being There" paper. Peripheral awareness allows glanceable information consumption without demanding focused attention, implementing Weiser's calm technology vision. Persistent artifacts like task lists and activity traces enable grounding without requiring synchronous presence, applying Clark and Brennan's 1991 framework for communication in different media. We designed for how people actually live together, not for ideal households that exist only in our imaginations.
+Promoting fairness was central to addressing the tensions our research revealed in shared living situations. Attribution makes contributions visible without being judgmental, using friendly language and supportive tone. Color-coded priorities reduce decision fatigue by making urgency immediately clear through visual design. AI assistance through KitchenKat and SupplyWorm characters distributes the cognitive load of noticing and remembering, taking mental burden off individuals. This fairness focus directly implements Grudin's principle that groupware must balance who does work with who gets benefit, ensuring sustainable long-term adoption.
 
-How we tested:
- We created low-fidelity prototypes (sketches, paper mock-ups) and later digital wireframes in Figma.
+**Evaluation and Iteration
 
+Think-Aloud Protocol (Week 9)**
 
-What we found during evaluation:
+We conducted structured usability testing with students living in shared accommodation using scenario-based tasks that reflected real household coordination challenges. Participants verbalized their thoughts while completing tasks like responding to bin alerts, reporting supply issues, and navigating house notes. This methodology, drawn from Nielsen's 1993 usability engineering framework, revealed both strengths and opportunities for improvement in our design.
 
-- Users were confused about how the system worked.
+Key findings validated several of our core design decisions. Users appreciated the friendly, non-judgmental tone of mascots KitchenKat and SupplyWorm, confirming that personality in interface design can reduce stress around household chores. Attribution showing "reported by Cora" successfully promoted accountability without feeling surveillant, achieving the social translucence balance we aimed for. Task completion via drag-and-drop felt satisfying and intuitive, making the mundane act of marking tasks complete into a rewarding micro-interaction. However, participants also identified areas needing improvement. Some experienced confusion about navigation paths and information hierarchy, suggesting our interface wasn't as glanceable as we intended. These insights drove immediate design adjustments.
 
-- The recipe suggestions were too abstract and didn’t feel actionable.
+Based on this evaluation, we simplified navigation with clearer visual hierarchy, making the most important information larger and more prominent. We enhanced iconography throughout the interface for quicker recognition, reducing reliance on text that requires focused reading. We maintained the mascot-based tone because testing confirmed it keeps interactions warm and supportive rather than administrative or judgmental. These changes reflected our commitment to iterative design informed by actual user experience rather than our assumptions about how the system should work.
 
-- Testers reported that while it was “interesting,” it wasn’t clearly more useful than existing apps.
+**Tradeshow Exhibition (Week 12)**
 
+Our public demonstration at the tradeshow revealed broader usability insights through both structured feedback forms and informal conversations with visitors. The quantitative results were encouraging, with over 70% understanding KitchenKat's purpose immediately upon seeing the display, validating that our core concept resonated with people. About 60% found the interface easy to understand, and a similar proportion agreed it promotes fair work distribution, suggesting we successfully addressed the fairness principles that guided our redesign. Most significantly, 100% of respondents felt comfortable with our information privacy approach, confirming that our balance between visibility and privacy was appropriate for shared living contexts.
+Qualitative feedback revealed specific pain points that quantitative metrics alone couldn't capture. Navigation emerged as a consistent issue, with users experiencing "information overload" and unclear paths through the interface. Task visibility was problematic because users wanted previews of task details on the dashboard rather than having to click through to see what was needed, reducing the glanceability we aimed for. Supply management displays were too text-heavy, forcing users to read carefully rather than scanning quickly. User identity confusion arose because it wasn't clear which housemate profile was currently active, potentially leading to tasks being assigned to the wrong person. These specific, actionable insights drove targeted design improvements.
 
-Reflection:
+We implemented several changes in response to this feedback. We reduced text density across all screens, replacing explanatory text with icons and visual indicators wherever possible. We added task previews to the dashboard for quick scanning, showing the task name and assignee without requiring navigation. We created visual distinction for active user profiles using color coding and larger profile pictures. We simplified supply status displays with icons and color coding that communicate urgency at a glance. These improvements demonstrate our commitment to evidence-based iteration, using real user feedback to refine the design rather than defending our initial choices.
 
- The teaching team also confirmed our suspicion: although the idea had a shared element, it still wasn’t strongly social enough. The technology was doing the work, but not encouraging people to interact with each other.
+**Theoretical Foundations**
+Our design decisions are explicitly informed by CSCW and mobile computing theory, grounding our work in established research rather than intuition or trends. Schmidt's 2002 paper on awareness in CSCW taught us to design for specific types of awareness rather than vague notions of "staying connected." We focused on task status awareness asking what needs doing right now, contribution awareness showing who's doing what, and supply awareness indicating what's running low. This specificity prevented the conceptual confusion Schmidt warned against where "awareness" becomes a meaningless umbrella term that doesn't guide concrete design decisions.
 
-_____________________________________________________________________________________________________________________________________
+Grudin's foundational work on groupware challenges from 1988 and 1994 directly shaped our approach to fairness and adoption. We addressed his challenges by making work and benefit symmetrical so everyone who uses the system benefits immediately rather than early adopters bearing disproportionate costs. We made contributions visible through attribution, preventing invisible labour that breeds resentment. Most importantly, we designed for individual value so the system works even if some housemates don't participate fully, avoiding the critical mass trap that kills most social applications. These principles explain why KitchenKat provides value from the first interaction rather than only becoming useful once everyone participates.
 
+Clark and Brennan's 1991 framework for grounding in communication helped us understand how to support mutual understanding in asynchronous contexts. Our design supports grounding through reviewability where activity traces and notes persist for later review rather than disappearing like spoken words. We enable revisability so users can edit tasks and notes before posting, reducing social awkwardness from mistakes. We provide evidence of understanding through completion status that shows mutual awareness without requiring explicit confirmation messages. This theoretical foundation explains why our asynchronous design can support coordination as effectively as face-to-face conversation for many household tasks.
 
-Concept 3: Collaboration Display Board for Shared Living
+Hollan and Stornetta's 1992 "Beyond Being There" paper fundamentally reframed how we thought about digital coordination tools. Rather than trying to replicate face-to-face coordination through video chat or real-time messaging, we leveraged digital affordances that paper notes and verbal conversation can't provide. Persistent visibility means information doesn't fade like spoken words, reducing the need to remember who said what. Selective attention allows housemates to choose when to engage rather than interrupting whatever they're doing. Automatic archiving creates activity traces that provide passive accountability without anyone having to actively report their contributions. This shift from replication to augmentation unlocked design possibilities we hadn't previously considered.
 
-What we pivoted to:
- Based on feedback, we zoomed in on a smaller but more social pain point: household task management in shared living. Instead of focusing only on food/recipes, we designed a display board + mobile notification system for shared tasks (grocery shopping, cooking turns, cleaning, garbage disposal).
+Loke and Matthews' 2020 work on ethical design thinking ensured we embedded ethical considerations throughout the design process rather than treating ethics as a final checklist. We prioritized transparency so users know what information is visible and to whom, avoiding hidden surveillance. We implemented opt-in presence where housemate avatars show availability without tracking location or activity. We maintained a non-judgmental tone through friendly mascots that reduce stress and guilt around household responsibilities. We used inclusive language with clear, plain text accessible to diverse users including international students and people with varying literacy levels. These ethical commitments reflect our understanding that design choices encode social values and power relationships, as Winner argued in his 1980 paper on the politics of artifacts.
 
+#**Conclusion**
+KitchenKat evolved from a complex multi-feature platform to a focused coordination tool by grounding design decisions in social and mobile computing theory at every stage. Our iterative process, driven by research, evaluation, and critical reflection on foundational CSCW literature, demonstrates that effective social computing isn't about adding social features or building the most comprehensive system. It's about deeply understanding coordination practices in specific contexts and designing systems that support them without creating new problems or imposing unsustainable burdens on users.
 
-Why this worked better:
+The project exemplifies core DECO3500 learning outcomes through its progression from initial concept to final prototype. We identified an authentic social and mobile context in shared student accommodation where coordination challenges create real friction in daily life. We applied theoretical frameworks from Schmidt, Grudin, Clark and Brennan, Hollan and Stornetta, and others to practical design challenges, making abstract concepts concrete through specific features. We conducted rigorous evaluation using both formative methods like think-aloud protocols and summative methods like tradeshow exhibitions with structured feedback. Most importantly, we reflected critically on the political and ethical dimensions of technical artifacts, recognizing that design choices about visibility, attribution, and automation encode assumptions about household power dynamics and social relationships.
 
-
-- It directly addressed the interview insight that “people forget tasks after 1–2 weeks.”
-
-- It introduced visible accountability; everyone could see who had done their part.
-
-- Notifications supported mobile computing by reminding individuals, while the board displayed social traces of contributions.
-
-- It kept the scope manageable while staying deeply tied to social and mobile computing principles.
-
-_____________________________________________________________________________________________________________________________________
-
-
-
-
+This design process overview demonstrates that thoughtful social and mobile computing requires continuous learning, willingness to abandon ideas that don't work, and commitment to grounding decisions in evidence rather than intuition. KitchenKat represents not just a prototype but a case study in how theory informs practice and practice refines theory in interaction design education.
