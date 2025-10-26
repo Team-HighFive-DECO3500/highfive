@@ -1,19 +1,21 @@
 ## Evaluations
-This file contains evaluations for our final idea - KitchenKat, older idea - collaborative kitchen platform and feedback from the Tradeshow.
+#### This file contains evaluations for our final idea - KitchenKat, older idea - collaborative kitchen platform and feedback from the Tradeshow.
 ---
 
 
 ## Evaluation 1 - KitchenKat
+
 ---
-## KitchenKat Evaluation Protocol
 
-## 1. Evaluation Methodology
+### KitchenKat Evaluation Protocol
 
-## Think Aloud Protocol with Post-Interview
+### 1. Evaluation Methodology
+
+### Think Aloud Protocol with Post-Interview
 
 We have decided to use Think Aloud method combined with semi-structured post-interview questions as our evaluation methodology. This approach well-suited for evaluating KitchenKat's social and mobile computing dimensions.
 
-## Rationale for Think Aloud Protocol
+### Rationale for Think Aloud Protocol
 
 **Why Think Aloud?**
 
