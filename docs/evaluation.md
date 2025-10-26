@@ -1,43 +1,71 @@
-# Evaluations - This file contains evaluations for our final idea - KitchenKat, older idea - collaborative kitchen platform and feedback from the Tradeshow.
+## Evaluations
+This file contains evaluations for our final idea - KitchenKat, older idea - collaborative kitchen platform and feedback from the Tradeshow.
+---
 
 
-
-# Evaluation 1 - KitchenKat
-
+## Evaluation 1 - KitchenKat
+---
 ## KitchenKat Evaluation Protocol
 
 ## 1. Evaluation Methodology
 
 ## Think Aloud Protocol with Post-Interview
+
 We have decided to use Think Aloud method combined with semi-structured post-interview questions as our evaluation methodology. This approach well-suited for evaluating KitchenKat's social and mobile computing dimensions.
 
 ## Rationale for Think Aloud Protocol
 
-### Why Think Aloud?
+**Why Think Aloud?**
 
 Think aloud protocol is an evaluation method where participants verbalize their thoughts, feelings, and actions while interacting with the system (Ericsson & Simon, 1993). For KitchenKat, this method offers several advantages:
 
-1. Captures thought process and mental models
-Think aloud reveals users' expectations, confusions, and decision-making processes as they happen (Nielsen, 1993). Since KitchenKat expects to provide ambient awareness (Schmidt, 2002) and calm technology (Weiser, 1991), we need to understand whether users naturally understand the system's information architecture without extra guidance. The protocol allows us to identify situations or moments where the design successfully fades into the background versus moments where it requires unexpected cognitive effort.
+1. **Captures thought process and mental models**
+
+Think aloud reveals users' expectations, confusions, and decision-making processes as they happen (Nielsen, 1993). Since KitchenKat expects to provide ambient awareness (Schmidt, 2002), we need to understand whether users naturally understand the system's information architecture without extra guidance. The protocol allows us to identify situations or moments where the design successfully fades into the background versus moments where it requires unexpected cognitive effort.
 
 
-2. Reveals Social Interpretation
-KitchenKat is fundamentally a social coordination tool designed to make invisible articulation work visible (Kraal, 2014). Think aloud helps us understand how users interpret social cues embedded in the interface - such as task attribution, presence indicators (avatars), and activity feeds. As users verbalize their reactions to seeing housemates' contributions, we gain insight into whether the design successfully promotes social translucence (Erickson & Kellogg, 2000) or inadvertently creates pressure and discomfort.
+2. **Reveals Social Interpretation**
+
+KitchenKat is fundamentally a social coordination tool designed to make invisible articulation work visible (Schmidt & Bannon, 1992). Think aloud is useful in understanding how users interpret social cues embedded in the interface such as tasks, presence indicators (avatars), and activity feeds. As users verbalize their reactions to seeing housemates' contributions, we gain insight about whether the design successfully promotes social translucence (Erickson & Kellogg, 2000) or creates unecessary pressure and discomfort.
 
 
-3. Contextual Interaction Insights
-Our system operates across multiple contexts - both as a physical kitchen wall-mounted device and through mobile notifications. Think aloud allows us to observe how users navigate this ubicomp environment (Weiser, 1991; Abowd & Mynatt, 2000) and understand their context-switching behaviors. Participants' verbalizations reveal their mental models about when and how to use different interaction modalities.
+3. **Contextual Insights**
 
-4. Uncovers Fairness Perceptions
-A core design goal is addressing Grudin's disparity problem (1988, 1994) - ensuring those who do the work receive recognition. Think aloud captures participants' immediate reactions to fairness mechanisms like task attribution ("reported by Emma") and visible contribution tracking. Their spontaneous comments reveal whether these features feel motivating, fair, stressful, or potentially divisive.
+The system operates across through multiple contexts like physical wall-mounted device in the kitchen and through mobile notifications. Think aloud allows us to observe how users navigate this ubicomp environment (Weiser, 1991; Abowd & Mynatt, 2000) and understand their context-switching behaviors. Participants' verbalized thoughts reveal their mental models about when and how to use different interaction modes.
 
-5. Identifies Mobile Micro-Interaction Patterns
-Think aloud is particularly effective for evaluating mobile micro-interactions (Oulasvirta et al., 2005) - the quick, glanceable actions KitchenKat is designed to support (marking tasks complete, checking who's around, reading house notes). Users' verbalizations during these brief interactions reveal whether the interface supports the rapid, lightweight coordination that mobile and ubiquitous computing should enable
+4. **Highlights Fairness Perceptions**
+
+A core design goal is addressing Grudin's disparity problem (Grudin, 1988, 1994) which is about ensuring those who do the work receive recognition. Think aloud captures participants' immediate reactions to fairness mechanisms like tasks UI ("reported by Cora") and visible contribution tracking. Their comments reveal whether these features feel motivating, fair, stressful, or potentially divisive.
+
+5. **Identifies Mobile Micro-Interaction Patterns**
+
+Think aloud is particularly effective for evaluating mobile micro-interactions (Oulasvirta et al., 2005) - the quick, glanceable actions KitchenKat is designed to support (marking tasks complete, checking who's around, reading house notes). Users' thoughts ("oh! there's a notification" or "how I do I mark this as complete") during these brief interactions reveal whether the interface supports the rapid, light coordination that mobile and ubiquitous computing should enable.
 
 
+---
+### References
 
+Abowd, G. D., & Mynatt, E. D. (2000). Charting past, present, and future research in ubiquitous computing. ACM Transactions on Computer-Human Interaction (TOCHI), 7(1), 29–58.
 
+Erickson, T., & Kellogg, W. A. (2000). Social Translucence: An approach to designing systems that support social processes. ACM Transactions on Computer-Human Interaction (TOCHI), 7(1), 59–83.
 
+Ericsson, K. A., & Simon, H. A. (1993). Protocol analysis: Verbal reports as data (Rev. ed.). MIT Press.
+
+Grudin, J. (1988). Why CSCW applications fail: Problems in the design and evaluation of organizational interfaces. In Proceedings of the 1988 ACM conference on Computer-supported cooperative work (CSCW '88) (pp. 85–93). ACM.
+
+Grudin, J. (1994). Groupware and social dynamics: Distributed collaboration as a social process. Communications of the ACM, 37(1), 92–105.
+
+Nielsen, J. (1993). Usability engineering. Academic Press.
+
+Oulasvirta, A., Tamminen, S., Roto, V., & Kuorelahti, M. (2005). VOGUE: A framework for discovering mobile user experience. In CHI '05 Extended Abstracts on Human Factors in Computing Systems (pp. 1765–1768). ACM.
+
+Schmidt, K. (2002). The problem with 'awareness': Introductory remarks on the theme of awareness in CSCW. Computer Supported Cooperative Work (CSCW), 11(3-4), 273–298.
+
+Schmidt, K., & Bannon, L. (1992). Taking CSCW seriously: Supporting articulation work. Computer Supported Cooperative Work (CSCW), 1(1-2), 7–40.
+
+Weiser, M. (1991). The computer for the 21st century. Scientific American, 265(3), 94–104
+
+---
 
 
 # Evaluation 0 - Results for collaborative cooking platform
@@ -48,7 +76,7 @@ As you go, tell me what you’re looking for in a group and why you’d choose o
 Task 2 – Explore Group Details
 Now that you’ve chosen a group, please open its details. Look at the ingredients, the recipe being cooked, and the number of participants.
  Talk out loud about what makes this group appealing or unappealing to you.
- 
+  
 Task 3 – Collaborate Through Comments
 Within your group’s recipe video, please leave a suggestion or modification, like changing an ingredient.
  Tell me how useful you think it is to comment and read others’ suggestions.
