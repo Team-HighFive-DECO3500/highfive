@@ -211,11 +211,70 @@ Semi-structured interview with 5 questions.
 
 
 
-
+---
 
 ### 5. Feedback from Tradeshow
 
 **Tradeshow Overview**
+
+**Demonstration Setup**
+
+
+For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's core functionality:
+
+
+- Physical Bin Prototype: A cardboard box depicting the smart bin with paper sensors and coloured marks to demonstrate the sensor-based alert system
+- Kitchen Display: A cardboard screen featuring a poster of the KitchenKat interface to simulate the wall-mounted kitchen display
+- Interactive Demo: Laptop and iPad used for hands-on interaction with the functional prototype
+- Engagement: Demonstrated to 4+ visitorFeedback Summary
+
+### Feedback Results
+
+**Quantative Feedback**
+
+ - **Clarity of Purpose**: 70%+ understood what KitchenKat is designed to do
+ - **Ease of Understanding**: 60%+ found the main screen and features easy to understand
+ - **Fairness Perception**: 60%+ agreed that KitchenKat helps people share kitchen work fairly
+ - **Social Connection**: 60% felt the app was "somewhat social" in connecting people
+- **Privacy Comfort**: 100% felt comfortable with the information shared (initials, updates) shared on screen
+
+
+**Qualitative Results**
+
+
+**Key Strengths Identified**
+
+
+-**Privacy comfort**: All participants felt comfortable with the level of information sharing, validating our approach to social translucence
+-**Fairness Concept**: Majority recognized the system's potential to promote equitable household work distribution
+-**Clear Value Proposition**: Most visitors quickly grasped KitchenKat's purpose in supporting shared living coordination
+
+
+**Issues identified**
+
+1. **Navigation** : Users experienced "information overload" and unclear navigation paths
+
+
+- ***Quotes from the form*** : "I felt confused on where to go initially... there wasn't a clear path", "Having to click in to see what is needed - makes it easy to ignore - previews of task would be good - not just the urgent ones" , "It was unclear what user I was logged in as, and how to change users."
+
+2. **Task Visibility & Glanceability** : Critical information requires too many interactions to access
+
+-  ***Quotes from the form*** : "Having to click in to see what is needed - previews of task would be good"
+
+3. ***Supply Management Visibility*** : Supply information is text-heavy and buried in navigation
+
+ ***Quotes from the form***: "In the SUPPLY STOCKS section, the information display (such as the urgency of out-of-stock items) relies heavily on text and is not placed on the main page, which may cause users to overlook it and thus undermine its intended purpose."
+
+4. ***User Identity Confusion** : Unclear which user is logged in and how to switch users
+
+- ***Quotes from the form***"It was unclear what user I was logged in as, and how to change users"
+
+5. ***Queue Feature Curiosity*** : Multiple visitors expressed interest in the kitchen queue feature (future work)
+
+
+
+
+
 
 ---
 
