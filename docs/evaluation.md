@@ -43,6 +43,167 @@ A core design goal is addressing Grudin's disparity problem (Grudin, 1988, 1994)
 
 Think aloud is particularly effective for evaluating mobile micro-interactions (Oulasvirta et al., 2005) - the quick, glanceable actions KitchenKat is designed to support (marking tasks complete, checking who's around, reading house notes). Users' thoughts ("oh! there's a notification" or "how I do I mark this as complete") during these brief interactions reveal whether the interface supports the rapid, light coordination that mobile and ubiquitous computing should enable.
 
+### 2. Evaluation Protocol
+
+
+### Participant Recruitment
+
+
+**Target Participants**: Students or young adults currently living in shared accommodation (student housing, share houses, or early-career rentals)
+
+**Inclusion Criteria**:
+
+
+- Currently share kitchen facilities with 2+ housemates
+- Have experienced coordination challenges in shared living
+- Comfortable with basic mobile and touchscreen technology
+
+### Session Structure
+
+
+**Duration**: 15-20 minutes per participant
+**Location**: Simulated kitchen environment with wall-mounted display(laptop) showing KitchenKat prototype
+
+**Materials**:
+
+
+- Functional KitchenKat prototype on tablet/screen
+- Consent forms, asking for consent verbally and information sheets
+- Mobile phone for recording audio (with participant permission)
+- Observer Sheets to take notes
+
+
+### Protocol Stages
+
+**Stage 1: Introduction (5 minutes)**
+
+1. Welcome and consent process
+
+
+Brief explanation of think aloud method: "Please speak your thoughts out loud as you interact with the system - what you're looking at, what you're thinking, what you expect to happen. There are no right or wrong actions."
+Warm-up think aloud exercise (e.g., "Show me how you would make a cup of tea while thinking aloud")
+Context setting: "Imagine you live in a share house with 4-5 other people who use this kitchen."
+
+
+**Stage 2: Think Aloud Tasks (10 mins)**
+
+
+- Participants complete 4 scenario-based tasks while thinking aloud and observer takes notes as they interact with the system.
+
+
+1. **Task 1: Bin Full - Task Creation & Awareness**
+
+
+**Scenario**: "You've just walked into the shared kitchen and noticed the bin is full. You want to use KitchenKat to handle this."
+
+
+**Observable Behaviors**:
+
+
+- Navigation to task creation
+- Understanding of task categories and priorities
+- Awareness of other housemates' tasks
+- Reaction to seeing others' contributions
+
+
+2. **Task 2: Notification Response & Supply Reporting**
+
+
+**Scenario**: "You are Cora. You've just entered the kitchen and see a notification on the KitchenKat screen. You missed the text notification on your phone earlier. After dealing with the bin, you mark the task as complete and you notice the dish soap is nearly empty."
+
+**Observable Behaviors**:
+
+
+- Interpretation of notification system
+- Process of marking tasks complete
+- Navigation to SupplyWorm
+- Understanding of supply status categories
+- Awareness of Recent Activities feed and own contribution
+
+
+3. **Task 3: House Notes & Self-Assignment** 
+
+
+**Scenario**: "You left some utensils on the kitchen table this morning because you were rushing to uni. You want to leave a quick note to your housemates. You're also planning to go grocery shopping later and want notice a supply report created on KitchenKat by another housemate."
+
+**Observable Behaviors**:
+
+
+- Finding and using House Notes
+- Integration of supply list into shopping plans
+
+
+4. **Task 4: General Information Consumption**
+
+
+**Scenario**: "You've just entered the kitchen to make a quick coffee. You're not here to do any particular task."
+
+
+**Observable Behaviors**:
+
+- Glancing at KitchenKat and understanding the information
+- Glanceability and ambient awareness
+- Use of avatar presence indicators
+- Reading vs. skipping House Notes
+- Attention patterns across interface elements
+
+
+**Stage 3: Post-Interview Questions**
+
+
+Semi-structured interview with 5 questions.
+
+**Post-Interview Questions**
+
+
+- **Question 1: Social Coordination & Awareness** : Can you describe how you knew what was happening in the kitchen without directly asking anyone?
+
+
+*Follow up questions*: What information helped you understand the household situation? How did this compare to how you usually coordinate with housemates?
+
+
+*Theoretical Focus: Schmidt's awareness, Weiser's calm technology, asynchronous coordination*
+
+- **Question 2: Fairness & Visibility** : You saw that tasks are assigned to individuals - like 'reported by Cora' or task initials. What are your thoughts on that?
+
+
+*Follow up questions*: Fair? Motivating? Stressful? Would you prefer anonymous reporting?
+
+
+*Theoretical Focus: Grudin's fairness, Kraal's articulation work*
+
+
+- **Question 3: Mobile & Ubiquitous Computing** : The system can send notifications to your phone, but also displays information on the kitchen screen. How do these two ways of getting information feel different to you?
+
+
+*Follow up questions*: Which would you prefer when? Why have both?
+
+
+*Theoretical Focus: Context awareness (Satyanarayanan)*
+
+
+- **Question 5: Comparative & Adoption**: How is using KitchenKat different from your household WhatsApp group or group chat?
+
+
+*Follow up questions*: Better? Worse?
+
+
+- **Question 6: Any other thoughts**: Do you have any other feedback that you would like to share?
+
+
+*Follow up questions*: Anything that felt confusing or improved your experience? Improvements? 
+
+
+**Stage 4: Closing**
+
+
+### Data Collection methods
+
+
+- Audio Recording (with consent)
+- Observer Notes
+
+---
 
 ---
 ### References
