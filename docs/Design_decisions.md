@@ -74,6 +74,7 @@ We implemented several changes in response to this feedback. We reduced text den
 
 
 **Theoretical Foundations**
+
 Our design decisions are explicitly informed by CSCW and mobile computing theory, grounding our work in established research rather than intuition or trends. Schmidt's 2002 paper on awareness in CSCW taught us to design for specific types of awareness rather than vague notions of "staying connected." We focused on task status awareness asking what needs doing right now, contribution awareness showing who's doing what, and supply awareness indicating what's running low. This specificity prevented the conceptual confusion Schmidt warned against where "awareness" becomes a meaningless umbrella term that doesn't guide concrete design decisions.
 
 Grudin's foundational work on groupware challenges from 1988 and 1994 directly shaped our approach to fairness and adoption. We addressed his challenges by making work and benefit symmetrical so everyone who uses the system benefits immediately rather than early adopters bearing disproportionate costs. We made contributions visible through attribution, preventing invisible labour that breeds resentment. Most importantly, we designed for individual value so the system works even if some housemates don't participate fully, avoiding the critical mass trap that kills most social applications. These principles explain why KitchenKat provides value from the first interaction rather than only becoming useful once everyone participates.
