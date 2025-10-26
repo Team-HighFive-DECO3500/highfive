@@ -245,9 +245,9 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 **Key Strengths Identified**
 
 
--**Privacy comfort**: All participants felt comfortable with the level of information sharing, validating our approach to social translucence
--**Fairness Concept**: Majority recognized the system's potential to promote equitable household work distribution
--**Clear Value Proposition**: Most visitors quickly grasped KitchenKat's purpose in supporting shared living coordination
+ - **Privacy comfort**: All participants felt comfortable with the level of information sharing, validating our approach to social translucence
+ - **Fairness Concept**: Majority recognized the system's potential to promote equitable household work distribution
+ - **Clear Value**: Most visitors quickly grasped KitchenKat's purpose in supporting shared living coordination
 
 
 **Issues identified**
