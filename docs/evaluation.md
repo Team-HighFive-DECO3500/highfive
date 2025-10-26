@@ -267,7 +267,7 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 
 4. ***User Identity Confusion*** : Unclear which user is logged in and how to switch users
 
-- ***Quotes from the form***"It was unclear what user I was logged in as, and how to change users"
+- **Quotes from the form**: "It was unclear what user I was logged in as, and how to change users"
 
 5. ***Queue Feature Curiosity*** : Multiple visitors expressed interest in the kitchen queue feature (future work)
 
