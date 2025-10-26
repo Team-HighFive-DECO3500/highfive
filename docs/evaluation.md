@@ -357,7 +357,7 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 - Physical Bin Prototype: A cardboard box depicting the smart bin with paper sensors and coloured marks to demonstrate the sensor-based alert system
 - Kitchen Display: A cardboard screen featuring a poster of the KitchenKat interface to simulate the wall-mounted kitchen display
 - Interactive Demo: Laptop and iPad used for hands-on interaction with the functional prototype
-- Engagement: Demonstrated to 4+ visitorFeedback Summary
+- Engagement: Demonstrated to 4+ visitor
 
 ### Feedback Results
 
@@ -415,14 +415,14 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 ### Summarised Table
 
 
-| Issue | P1 | P2 | Severity | Theory Gap | Notes |
+| Issue | P1 | P2 | Tradeshow | Severity | Theory Gap | Notes |
 |--------|----|----|-----------|-------------|--------|
-| Too much text | ✓ | ✓ | Critical | Glanceability, Easy to understand| Interface requires simplification for better readability and visual hierarchy. |
-| Information overload | ✓ | - | High | Awareness, Cognitive Load | Users experience excessive cognitive load due to cluttered data presentation. |
-| Cluttered Task list | ✓ | - | High | Micro-interactions | Lack of clear task feedback and system status transparency. |
+| Too much text | ✓ | ✓ | ✓ | Critical | Glanceability, Easy to understand| Interface requires simplification for better readability and visual hierarchy. |
+| Information overload | ✓ | - | ✓ | High | Awareness, Cognitive Load | Users experience excessive cognitive load due to cluttered data presentation. |
+| Cluttered Task list | ✓ | - | ✓ | High | Micro-interactions | Lack of clear task feedback and system status transparency. |
 | Notification not clearly visible | ✓ | - | Critical | Context Awareness | Notifications fail to appear or align with user context. |
 | Queue feature missing | ✓ | - | Medium | Coordination | Would be good to add a feature for free kitchen space. |
-| Editable UI | ✓ | - | Low | User Control | Users cannot personalize the experience to their preferences. |
+| Editable UI | ✓ | - | ✓ | Low | User Control | Users cannot personalize the experience to their preferences. |
 
 
 
