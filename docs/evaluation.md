@@ -208,7 +208,10 @@ Semi-structured interview with 5 questions.
 ---
 ### 4. Results for Think aloud and Post Interview
 
-**Participant 1 (P1) - Transcript Analysis** 
+#### Participant 1 (P1)
+
+
+
 ***Transcripts are attached in***
 
 **Task Performance Summary**
@@ -218,7 +221,7 @@ Semi-structured interview with 5 questions.
 - **Task 4 (Glancing)**: Effectively scanned interface, understood task assignments, supply status, and house notes without explicit interaction.
 
 
-  **Participant 2 (P2) - Observations**
+#### Participant 2 (P2) - Observations
 
 - Missed notification initially, relied on Task Manager to create tasks
 - Found task creation easy but interface took time to understand
@@ -276,15 +279,18 @@ This validates our core design goal of making invisible work visible (Schmidt & 
 
 1. **Notification Visibility Failure** : P2 missed notification entirely
 - Design flaw: Notifications should be visible clearly but not seem like a punishment
+
+
 - Recommendation: Increase notification prominence through size, color contrast, animation, or positioning
 
 
--2. **Information Overload & Text-Heavy Design**
+2. **Information Overload & Text-Heavy Design**
 - Consistent across both participants:
 - P1: "If there would be more pictures, it would be easy to comprehend"
 - P2: "Task Manager cluttered, too much text"
 - Tradeshow feedback: "Supplies are too text heavy"
   
+
 - Recommendations:
 - Replace text descriptions with icons/images for supplies
 - Use visual hierarchy and progressive disclosure
@@ -297,6 +303,9 @@ This validates our core design goal of making invisible work visible (Schmidt & 
 - P2: "Took some time to understand the interface"
 - Suggests poor information architecture
 - Contradicts goal of natural, intuitive interaction
+
+
+
 - Recommendation: Simplified onboarding, clearer visual hierarchy, reduced initial cognitive load
 
 
@@ -305,6 +314,9 @@ This validates our core design goal of making invisible work visible (Schmidt & 
 - P2 questioned: "Can I edit flatmates' names?"
 - Users want control over household configuration
 - System feels rigid without customization options
+
+
+
 - Recommendation: Add household member management features, editable profiles, customizable categories
 
 
@@ -315,16 +327,19 @@ This validates our core design goal of making invisible work visible (Schmidt & 
 - Users forced into one interface for multiple needs
 - Navigation burden contradicts micro-interaction goals
 
--Recommendation:
--Separate urgent tasks into prominent dashboard widget
--Use filtering/sorting options ("show my tasks only" - from tradeshow feedback)
--Reduce clicks needed to access critical information
+
+- Recommendation:
+- Separate urgent tasks into prominent dashboard widget
+- Use filtering/sorting options ("show my tasks only" - from tradeshow feedback)
+- Reduce clicks needed to access critical information
 
 
 
 6. **Queue Feature Demand**
 - P2: "Prefers to get notified when kitchen is empty"
 - Tradeshow feedback on queue curiosity
+
+
 - Recommendation: Prioritize kitchen queue implementation in next iteration
 
 ---
