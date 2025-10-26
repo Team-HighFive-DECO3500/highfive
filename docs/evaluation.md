@@ -1,5 +1,5 @@
 ## Evaluations
-#### This file contains evaluations for our final idea - KitchenKat, older idea - collaborative kitchen platform and feedback from the Tradeshow.
+#### This file contains evaluations for our final idea - KitchenKat, older idea - collaborative kitchen platform; and feedback from the Tradeshow.
 ---
 
 
