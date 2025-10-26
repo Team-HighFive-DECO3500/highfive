@@ -18,7 +18,12 @@ Our initial design focused on a collaborative cooking platform where users could
 
 The first major challenge was complexity. We had created a system with too many features that caused cognitive overload for users who simply wanted to figure out what to eat for dinner. The critical mass problem became evident as the system required many active users to provide value, falling directly into Grudin's Challenge #2 about groupware adoption. There was also a severe work-benefit disparity where early adopters had to do significant work through scanning items and entering data with minimal immediate benefit in return, exemplifying Grudin's Challenge #1. Most critically, tutors noted the design was not sufficiently social. Despite having many collaborative features, we had focused on functionality rather than supporting actual social coordination practices that happen naturally in shared households.
 
-<img width="1500" height="2000" alt="image" src="https://github.com/user-attachments/assets/9a8afc3a-cb85-4a34-8650-4b1b2d022f83" />
+<img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/9a8afc3a-cb85-4a34-8650-4b1b2d022f83" />
+<img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/5b105e4f-6dde-456e-91cf-e10b90fa2dab" />
+<img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/1e15e8d5-c21f-48ea-ab70-60d678668faa" />
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/57c29223-ca69-4613-91f7-cd205e69ff1e" />
+
+
 
 **Design Pivot: From Complexity to Calm Coordination**
 
@@ -26,7 +31,7 @@ Following tutor feedback and deep reflection on course readings, particularly Sc
 
 Key insights emerged from revisiting our annotations and research. Students struggle with decision fatigue and unclear responsibility distribution, not with finding recipes online. Invisible domestic labour causes resentment when some housemates contribute more than others, creating tension that undermines the social bonds we wanted to support. Effective coordination requires ambient awareness without intrusive notifications, as Schmidt argued in his 2002 paper. Most importantly, we learned that systems must provide immediate individual value, not just collective benefits, because people won't maintain systems that only benefit the group at their personal expense, as Grudin explained in 1994. These insights fundamentally redirected our design toward simplicity and situational support.
 
-#**Current Design: KitchenKat**
+**Current Design: KitchenKat**
 
 **Core Functionality**
 
@@ -37,14 +42,15 @@ The task manager allows housemates to create tasks with specific categories incl
 SupplyWorm manages household supplies through a friendly, non-judgmental interface. Users report supply issues with urgency levels indicating whether items are running low, empty, or expired. Community notes provide context and updates so housemates can communicate about specific supply situations. Attribution shows who noticed problems, effectively distributing the mental load of tracking household supplies across all residents rather than burdening one organized person. Visual status indicators reduce cognitive effort by making information glanceable, supporting the ambient information principle from mobile computing theory.
 
 **Design Rationale**
+
 Our current design addresses previous challenges by fundamentally restructuring how value is created and distributed. Reducing barriers to entry was paramount. The system requires no account setup or complex onboarding, respects housemates' time by keeping interactions brief, and ensures every interaction provides immediate personal value rather than just group benefit. Automatic activity logging eliminates manual status updates that created work-benefit disparities in our first design. This approach directly addresses Grudin's critical mass problem by making the system useful even for early adopters when few others are participating.
 
 We focused on supporting natural practices rather than imposing new behaviors. Asynchronous coordination respects varied schedules, acknowledging that students have different class times, work shifts, and social commitments, following principles from Hollan and Stornetta's 1992 "Beyond Being There" paper. Peripheral awareness allows glanceable information consumption without demanding focused attention, implementing Weiser's calm technology vision. Persistent artifacts like task lists and activity traces enable grounding without requiring synchronous presence, applying Clark and Brennan's 1991 framework for communication in different media. We designed for how people actually live together, not for ideal households that exist only in our imaginations.
 Promoting fairness was central to addressing the tensions our research revealed in shared living situations. Attribution makes contributions visible without being judgmental, using friendly language and supportive tone. Color-coded priorities reduce decision fatigue by making urgency immediately clear through visual design. AI assistance through KitchenKat and SupplyWorm characters distributes the cognitive load of noticing and remembering, taking mental burden off individuals. This fairness focus directly implements Grudin's principle that groupware must balance who does work with who gets benefit, ensuring sustainable long-term adoption.
 
-**Evaluation and Iteration
+**Evaluation and Iteration**
 
-Think-Aloud Protocol (Week 9)**
+**Think-Aloud Protocol (Week 9)**
 
 We conducted structured usability testing with students living in shared accommodation using scenario-based tasks that reflected real household coordination challenges. Participants verbalized their thoughts while completing tasks like responding to bin alerts, reporting supply issues, and navigating house notes. This methodology, drawn from Nielsen's 1993 usability engineering framework, revealed both strengths and opportunities for improvement in our design.
 
@@ -71,6 +77,7 @@ Hollan and Stornetta's 1992 "Beyond Being There" paper fundamentally reframed ho
 Loke and Matthews' 2020 work on ethical design thinking ensured we embedded ethical considerations throughout the design process rather than treating ethics as a final checklist. We prioritized transparency so users know what information is visible and to whom, avoiding hidden surveillance. We implemented opt-in presence where housemate avatars show availability without tracking location or activity. We maintained a non-judgmental tone through friendly mascots that reduce stress and guilt around household responsibilities. We used inclusive language with clear, plain text accessible to diverse users including international students and people with varying literacy levels. These ethical commitments reflect our understanding that design choices encode social values and power relationships, as Winner argued in his 1980 paper on the politics of artifacts.
 
 #**Conclusion**
+
 KitchenKat evolved from a complex multi-feature platform to a focused coordination tool by grounding design decisions in social and mobile computing theory at every stage. Our iterative process, driven by research, evaluation, and critical reflection on foundational CSCW literature, demonstrates that effective social computing isn't about adding social features or building the most comprehensive system. It's about deeply understanding coordination practices in specific contexts and designing systems that support them without creating new problems or imposing unsustainable burdens on users.
 
 The project exemplifies core DECO3500 learning outcomes through its progression from initial concept to final prototype. We identified an authentic social and mobile context in shared student accommodation where coordination challenges create real friction in daily life. We applied theoretical frameworks from Schmidt, Grudin, Clark and Brennan, Hollan and Stornetta, and others to practical design challenges, making abstract concepts concrete through specific features. We conducted rigorous evaluation using both formative methods like think-aloud protocols and summative methods like tradeshow exhibitions with structured feedback. Most importantly, we reflected critically on the political and ethical dimensions of technical artifacts, recognizing that design choices about visibility, attribution, and automation encode assumptions about household power dynamics and social relationships.
