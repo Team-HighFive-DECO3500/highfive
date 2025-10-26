@@ -23,7 +23,7 @@ Think aloud protocol is an evaluation method where participants verbalize their 
 
 1. **Captures thought process and mental models**
 
-Think aloud reveals users' expectations, confusions, and decision-making processes as they happen (Nielsen, 1993). Since KitchenKat expects to provide ambient awareness (Schmidt, 2002), we need to understand whether users naturally understand the system's information architecture without extra guidance. The protocol allows us to identify situations or moments where the design successfully fades into the background versus moments where it requires unexpected cognitive effort.
+Think aloud highlights users' expectations, confusions, and decision-making processes as they happen while interacting with the system (Nielsen, 1993). Since KitchenKat expects to provide ambient awareness (Schmidt, 2002), we need to understand whether users naturally understand the system's information without extra guidance. The protocol allows us to identify situations or moments where the design successfully fades into the background and the moments where it requires unexpected cognitive effort.
 
 
 2. **Reveals Social Interpretation**
@@ -37,7 +37,7 @@ The system operates across through multiple contexts like physical wall-mounted 
 
 4. **Highlights Fairness Perceptions**
 
-A core design goal is addressing Grudin's disparity problem (Grudin, 1988, 1994) which is about ensuring those who do the work receive recognition. Think aloud captures participants' immediate reactions to fairness mechanisms like tasks UI ("reported by Cora") and visible contribution tracking. Their comments reveal whether these features feel motivating, fair, stressful, or potentially divisive.
+One of the design goals is also to address Grudin's disparity problem (Grudin, 1988, 1994) which is about ensuring those who do the work are visible and receive recognition. Think aloud captures participants' immediate reactions to fairness mechanisms like tasks UI ("reported by Cora") and visible contribution tracking. Their comments reveal whether these features feel motivating, fair, stressful, or potentially demotivating.
 
 5. **Identifies Mobile Micro-Interaction Patterns**
 
@@ -49,7 +49,7 @@ Think aloud is particularly effective for evaluating mobile micro-interactions (
 ### Participant Recruitment
 
 
-**Target Participants**: Students or young adults currently living in shared accommodation (student housing, share houses, or early-career rentals)
+**Target Participants**: Students or young adults currently living in shared accommodation (student housing, share houses)
 
 **Inclusion Criteria**:
 
@@ -81,20 +81,19 @@ Think aloud is particularly effective for evaluating mobile micro-interactions (
 
 
 Brief explanation of think aloud method: "Please speak your thoughts out loud as you interact with the system - what you're looking at, what you're thinking, what you expect to happen. There are no right or wrong actions."
-Warm-up think aloud exercise (e.g., "Show me how you would make a cup of tea while thinking aloud")
-Context setting: "Imagine you live in a share house with 4-5 other people who use this kitchen."
+
 
 
 **Stage 2: Think Aloud Tasks (10 mins)**
 
 
-- Participants complete 4 scenario-based tasks while thinking aloud and observer takes notes as they interact with the system.
+- Participants complete 4 scenario based tasks while thinking aloud and observer takes notes as they interact with the system. Audio recording is also done for one for the participants.
 
 
 1. **Task 1: Bin Full - Task Creation & Awareness**
 
 
-**Scenario**: "You've just walked into the shared kitchen and noticed the bin is full. You want to use KitchenKat to handle this."
+**Scenario**: "You've just walked into the shared kitchen and noticed the bin is full. You want to use KitchenKat to takecare of this."
 
 
 **Observable Behaviors**:
@@ -109,7 +108,7 @@ Context setting: "Imagine you live in a share house with 4-5 other people who us
 2. **Task 2: Notification Response & Supply Reporting**
 
 
-**Scenario**: "You are Cora. You've just entered the kitchen and see a notification on the KitchenKat screen. You missed the text notification on your phone earlier. After dealing with the bin, you mark the task as complete and you notice the dish soap is nearly empty."
+**Scenario**: "You are Cora. You've just entered the kitchen and see a notification on the KitchenKat screen. You missed the text notification on your phone earlier. After cleaning with the bin, you mark the task as complete and you notice the dish soap is nearly empty."
 
 **Observable Behaviors**:
 
@@ -144,14 +143,14 @@ Context setting: "Imagine you live in a share house with 4-5 other people who us
 - Glancing at KitchenKat and understanding the information
 - Glanceability and ambient awareness
 - Use of avatar presence indicators
-- Reading vs. skipping House Notes
+- Acts of reading or skipping house notes
 - Attention patterns across interface elements
 
 
 **Stage 3: Post-Interview Questions**
 
 
-Semi-structured interview with 5 questions.
+Semi-structured interview with 5-7 questions.
 
 **Post-Interview Questions**
 
@@ -212,13 +211,13 @@ Semi-structured interview with 5 questions.
 
 
 
-***Transcripts are attached docs/Think aloud_transcripts.pdf***
+***Transcripts are attached in docs/Think aloud_transcripts.pdf***
 
 **Task Performance Summary**
 - **Task 1 (Bin Overflow)**: Successfully navigated to Task Manager, understood task creation process, and considered notification mechanisms.
 - **Task 2 (Notification Response & Supply Report)**: Checked Task Manager for duty assignments, navigated to Supply Stock to report dish soap shortage, understood assignment system.
-- **Task 3 (House Notes & Shopping)**: Correctly identified House Notes for communication, used Supply Stock to check shopping needs, demonstrated understanding of dual functionality.
-- **Task 4 (Glancing)**: Effectively scanned interface, understood task assignments, supply status, and house notes without explicit interaction.
+- **Task 3 (House Notes & Shopping)**: Correctly identified House Notes for communication, used Supply Stock to check shopping needs
+- **Task 4 (Random Glancing)**: Effectively scanned interface, understood task assignments, supply status, and house notes without extra interaction.
 
 
 #### Participant 2 (P2) - Observations
@@ -362,7 +361,7 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 ### Feedback Results
 
 
-***Googleform is in attached docs/Think aloud_transcripts.pdf***
+***Googleform is attached in docs/Think aloud_transcripts.pdf***
 
 
 
@@ -406,10 +405,6 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 - **Quotes from the form**: "It was unclear what user I was logged in as, and how to change users"
 
 5. ***Queue Feature Curiosity*** : Multiple visitors expressed interest in the kitchen queue feature (future work)
-
-
-
-
 
 
 ---
