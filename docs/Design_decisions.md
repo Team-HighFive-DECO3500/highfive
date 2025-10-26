@@ -1,8 +1,9 @@
-<img width="1500" height="2000" alt="image" src="https://github.com/user-attachments/assets/75c0065a-8e00-42f2-8c4e-1961fecb0ce9" />#**Design Process Overview**
-#**Project Introduction**
+**Design Process Overview**
+
+**Project Introduction**
 KitchenKat is a digital wall-mounted display designed to support household coordination in shared student accommodation and sharehouses. The system helps housemates manage kitchen tasks, track supplies, and stay aware of household activities through a calm, ambient interface that reduces friction and promotes fairness in shared living spaces. Rather than adding complexity to already busy student lives, KitchenKat acts as a quiet background presence that makes invisible household work visible and ensures everyone contributes fairly to shared domestic responsibilities.
 
-#**Design Principles**
+**Design Principles**
 Our design is grounded in core principles of social and mobile computing that shaped every decision throughout the development process. From a social computing perspective, we focused on awareness by making invisible household work visible through activity traces and task status. We emphasized coordination to support asynchronous collaboration without requiring constant communication between housemates. Our approach addresses articulation work by reducing the cognitive effort of dividing, allocating, and tracking household responsibilities. Fairness was central to our design, ensuring equitable distribution of domestic labour through transparent task assignment. We also embraced social translucence, carefully balancing visibility and accountability with privacy and comfort so the system feels supportive rather than surveillant.
 
 From a mobile computing perspective, we designed KitchenKat to be context-aware, responding intelligently to household presence, patterns, and needs. The system provides ambient information by displaying relevant details peripherally without demanding constant attention. We implemented just-in-time support that provides assistance at the moment of need, such as when someone enters the kitchen. Most importantly, we ensured seamless integration so the technology fits naturally into existing household routines rather than disrupting them. These principles guided us away from complex feature-heavy designs toward a calm, supportive system that truly serves the social dynamics of shared living.
