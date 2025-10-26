@@ -415,10 +415,8 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 ### Summarised Table
 
 
-### Things that worked out
+### Validations
 
-
-### Social & Mobile Computing Principles: Theory-to-Practice Validation
 
 
 | Validated Concept | Tradeshow Evidence | P1 Evidence | P2 Evidence | Why It Worked |
