@@ -172,7 +172,7 @@ Semi-structured interview with 5 questions.
 *Follow up questions*: Fair? Motivating? Stressful? Would you prefer anonymous reporting?
 
 
-*Theoretical Focus: Grudin's fairness, Kraal's articulation work*
+*Theoretical Focus: Grudin's fairness, Schmidt, K., & Bannon, L. (1992) articulation work*
 
 
 - **Question 4: Mobile & Ubiquitous Computing** : The system can send notifications to your phone, but also displays information on the kitchen screen. How do these two ways of getting information feel different to you?
