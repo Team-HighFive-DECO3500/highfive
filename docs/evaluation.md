@@ -212,7 +212,7 @@ Semi-structured interview with 5 questions.
 
 
 
-***Transcripts are attached in***
+***Transcripts are attached docs/Think aloud_transcripts.pdf***
 
 **Task Performance Summary**
 - **Task 1 (Bin Overflow)**: Successfully navigated to Task Manager, understood task creation process, and considered notification mechanisms.
@@ -361,6 +361,11 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 
 ### Feedback Results
 
+
+***Googleform is in attached docs/Think aloud_transcripts.pdf***
+
+
+
 **Quantative Feedback**
 
  - **Clarity of Purpose**: 70%+ understood what KitchenKat is designed to do
@@ -429,11 +434,10 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 
 
 ### Theoretical Frameworks Applied/Referred
-- **Glanceability & Calm Technology:** Designing for quick comprehension and minimal cognitive effort.  
+- **Glanceability:** Designing for quick comprehension and minimal cognitive effort.  
 - **Cognitive Load Theory:** Managing user information processing capacity.  
 - **Micro-interactions:** Enhancing visibility and feedback in small interface actions.  
-- **Context Awareness:** Ensuring system responsiveness to user environment and timing.  
-- **Politics of Artifacts:** Considering the social and cultural implications of technology.  
+- **Context Awareness:** Ensuring system responsiveness to user environment and timing.   
 - **Coordination Theory:** Supporting multi-user task management and shared spaces.  
 - **User Control & Customization:** Empowering users to tailor their experience.  
 
