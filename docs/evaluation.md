@@ -265,7 +265,7 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 
 - ***Quotes from the form***: "In the SUPPLY STOCKS section, the information display (such as the urgency of out-of-stock items) relies heavily on text and is not placed on the main page, which may cause users to overlook it and thus undermine its intended purpose."
 
-4. ***User Identity Confusion** : Unclear which user is logged in and how to switch users
+4. ***User Identity Confusion*** : Unclear which user is logged in and how to switch users
 
 - ***Quotes from the form***"It was unclear what user I was logged in as, and how to change users"
 
