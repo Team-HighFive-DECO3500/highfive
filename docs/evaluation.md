@@ -155,8 +155,10 @@ Semi-structured interview with 5 questions.
 
 **Post-Interview Questions**
 
+- **Question 1: General feedback** : What was your overall impression of using KitchenKat today? Would you want this in your actual shared accommodation? Why or why not?
 
-- **Question 1: Social Coordination & Awareness** : Can you describe how you knew what was happening in the kitchen without directly asking anyone?
+
+- **Question 2: Social Coordination & Awareness** : Can you describe how you knew what was happening in the kitchen without directly asking anyone?
 
 
 *Follow up questions*: What information helped you understand the household situation? How did this compare to how you usually coordinate with housemates?
@@ -164,7 +166,7 @@ Semi-structured interview with 5 questions.
 
 *Theoretical Focus: Schmidt's awareness, Weiser's calm technology, asynchronous coordination*
 
-- **Question 2: Fairness & Visibility** : You saw that tasks are assigned to individuals - like 'reported by Cora' or task initials. What are your thoughts on that?
+- **Question 3: Fairness & Visibility** : You saw that tasks are assigned to individuals - like 'reported by Cora' or task initials. What are your thoughts on that?
 
 
 *Follow up questions*: Fair? Motivating? Stressful? Would you prefer anonymous reporting?
@@ -173,7 +175,7 @@ Semi-structured interview with 5 questions.
 *Theoretical Focus: Grudin's fairness, Kraal's articulation work*
 
 
-- **Question 3: Mobile & Ubiquitous Computing** : The system can send notifications to your phone, but also displays information on the kitchen screen. How do these two ways of getting information feel different to you?
+- **Question 4: Mobile & Ubiquitous Computing** : The system can send notifications to your phone, but also displays information on the kitchen screen. How do these two ways of getting information feel different to you?
 
 
 *Follow up questions*: Which would you prefer when? Why have both?
@@ -182,13 +184,13 @@ Semi-structured interview with 5 questions.
 *Theoretical Focus: Context awareness (Satyanarayanan)*
 
 
-- **Question 5: Comparative & Adoption**: How is using KitchenKat different from your household WhatsApp group or group chat?
+- **Question 6: Comparative & Adoption**: How is using KitchenKat different from your household WhatsApp group or group chat?
 
 
 *Follow up questions*: Better? Worse?
 
 
-- **Question 6: Any other thoughts**: Do you have any other feedback that you would like to share?
+- **Question 7: Any other thoughts**: Do you have any other feedback that you would like to share?
 
 
 *Follow up questions*: Anything that felt confusing or improved your experience? Improvements? 
