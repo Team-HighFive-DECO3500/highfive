@@ -261,9 +261,9 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 
 -  ***Quotes from the form*** : "Having to click in to see what is needed - previews of task would be good"
 
-3. ***Supply Management Visibility*** : Supply information is text-heavy and buried in navigation
+3. **Supply Management Visibility** : Supply information is text-heavy and buried in navigation
 
- ***Quotes from the form***: "In the SUPPLY STOCKS section, the information display (such as the urgency of out-of-stock items) relies heavily on text and is not placed on the main page, which may cause users to overlook it and thus undermine its intended purpose."
+- ***Quotes from the form***: "In the SUPPLY STOCKS section, the information display (such as the urgency of out-of-stock items) relies heavily on text and is not placed on the main page, which may cause users to overlook it and thus undermine its intended purpose."
 
 4. ***User Identity Confusion** : Unclear which user is logged in and how to switch users
 
