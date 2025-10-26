@@ -15,7 +15,6 @@ This process demonstrates both the **utility and limitation of AI**: while it im
 
 To ensure transparency, some example questions asked to AI during the project included:
 
-- “Can you help check if my explanation of *Glanceability* aligns with Weiser’s theory?”  
 - “How can I connect *Context Awareness* and *Politics of Artifacts* more clearly in my findings?”  
 - “Please refine this paragraph for better academic flow.”  
 - “Show me a clean example of JavaScript localStorage handling for task data.”  
