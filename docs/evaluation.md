@@ -250,12 +250,12 @@ This validates our core design goal of making invisible work visible (Schmidt & 
 2. **Social concept Accepted**
 
  
--P1 on names being visible: "By calling the names, we would be more... responsible for the situation"
+- P1 on names being visible: "By calling the names, we would be more... responsible for the situation"
 - Accountability mechanisms viewed as positive, not intrusive
 
 
 
-3. **Multi-Modal Interaction Validated**
+3. **Multiple Modal Interaction Validated**
 - Both participants strongly preferred having both screen and mobile notifications:
 
 - P1: "You're always using your phone... doing it both ways is like a very good option"
@@ -408,6 +408,8 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 
 
 ---
+
+### 6. Combined Analysis
 
 
 
