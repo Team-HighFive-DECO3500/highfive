@@ -235,7 +235,7 @@ Semi-structured interview with 5 questions.
 
 **Strengths**
 
-- 1. **Fairness benefits** - Addressing Grudin's Disparity Problem
+1. **Fairness benefits** - Addressing Grudin's Disparity Problem
 - Both participants immediately recognized the fairness benefits:
 
 - P1: "Without the system, it'd be really hard to know if someone has done the duty or not"
@@ -243,24 +243,29 @@ Semi-structured interview with 5 questions.
 
 This validates our core design goal of making invisible work visible (Schmidt & Bannon, 1992) and addressing Grudin's (1988) disparity between who does work and who benefits.
 
-- 2. **Social concept Accepted**
+
+2. **Social concept Accepted**
 
  
 -P1 on names being visible: "By calling the names, we would be more... responsible for the situation"
 - Accountability mechanisms viewed as positive, not intrusive
 
 
-- **3. Multi-Modal Interaction Validated**
+
+3. **Multi-Modal Interaction Validated**
 - Both participants strongly preferred having both screen and mobile notifications:
 
 - P1: "You're always using your phone... doing it both ways is like a very good option"
 - Confirms context-aware computing needs
 - Validates ubicomp approach over single-device design
 
-- **4. Awareness Achieved (Partially)**
+
+
+4. **Awareness Achieved (Partially)**
 - P1 on glanceability: Could understand "whose task is what" and "if we need any supply stock" through brief scanning
 
-- **5. Superior to Existing Communication Methods**
+
+5. **Superior to Existing Communication Methods**
 - P1: "In the group chat, some people just don't respond... with kitchen cat, they would be more responsible"
 - Validates "beyond being there" principle (Hollan & Stornetta, 1992)
 - Asynchronous, persistent visibility more effective than synchronous messaging
@@ -269,11 +274,12 @@ This validates our core design goal of making invisible work visible (Schmidt & 
 **Critical Issues & Improvements Needed**
 
 
-- 1. **Notification Visibility Failure** : P2 missed notification entirely
+1. **Notification Visibility Failure** : P2 missed notification entirely
 - Design flaw: Notifications should be visible clearly but not seem like a punishment
 - Recommendation: Increase notification prominence through size, color contrast, animation, or positioning
 
-- 2. **Information Overload & Text-Heavy Design**
+
+-2. **Information Overload & Text-Heavy Design**
 - Consistent across both participants:
 - P1: "If there would be more pictures, it would be easy to comprehend"
 - P2: "Task Manager cluttered, too much text"
@@ -286,20 +292,24 @@ This validates our core design goal of making invisible work visible (Schmidt & 
 - Add pictorial representations for common items
 
 
-- 3. **Learning Curve & Initial Confusion**
+
+3. **Learning Curve & Initial Confusion**
 - P2: "Took some time to understand the interface"
 - Suggests poor information architecture
 - Contradicts goal of natural, intuitive interaction
--Recommendation: Simplified onboarding, clearer visual hierarchy, reduced initial cognitive load
+- Recommendation: Simplified onboarding, clearer visual hierarchy, reduced initial cognitive load
 
-- 4. **Lack of Editability & Control**
+
+
+4. **Lack of Editability & Control**
 - P2 questioned: "Can I edit flatmates' names?"
 - Users want control over household configuration
 - System feels rigid without customization options
 - Recommendation: Add household member management features, editable profiles, customizable categories
 
 
--5. **Task Manager Perceived as Cluttered**
+
+5. **Task Manager Perceived as Cluttered**
 - Both participants defaulted to Task Manager for everything, but:
 - P2: "Task Manager cluttered"
 - Users forced into one interface for multiple needs
@@ -311,7 +321,8 @@ This validates our core design goal of making invisible work visible (Schmidt & 
 -Reduce clicks needed to access critical information
 
 
-- 6. **Queue Feature Demand**
+
+6. **Queue Feature Demand**
 - P2: "Prefers to get notified when kitchen is empty"
 - Tradeshow feedback on queue curiosity
 - Recommendation: Prioritize kitchen queue implementation in next iteration
