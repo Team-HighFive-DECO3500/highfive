@@ -417,12 +417,12 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 
 | Issue | P1 | P2 | Severity | Theory Gap | Notes |
 |--------|----|----|-----------|-------------|--------|
-| Text-heavy design | ✓ | ✓ | Critical | Glanceability, Calm Tech | Interface requires simplification for better readability and visual hierarchy. |
+| Text-heavy design | ✓ | ✓ | Critical | Glanceability, Easy to understand| Interface requires simplification for better readability and visual hierarchy. |
 | Information overload | ✓ | - | High | Awareness, Cognitive Load | Users experience excessive cognitive load due to cluttered data presentation. |
 | Poor task visibility | ✓ | - | High | Micro-interactions | Lack of clear task feedback and system status transparency. |
 | Notification problems | ✓ | - | Critical | Context Awareness | Notifications fail to appear or align with user context. |
 | Social tension risk | ✓ | - | Medium | Politics of Artifacts | Risk of creating discomfort or hierarchy during social interactions. |
-| Queue feature missing | ✓ | - | Medium | Coordination | No visible mechanism for managing queues or waiting users. |
+| Queue feature missing | ✓ | - | Medium | Coordination | Would be good to add a feature for free kitchen space. |
 | Lack of customization | ✓ | - | Low | User Control | Users cannot personalize the experience to their preferences. |
 
 
