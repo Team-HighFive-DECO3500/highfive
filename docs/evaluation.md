@@ -208,8 +208,113 @@ Semi-structured interview with 5 questions.
 ---
 ### 4. Results for Think aloud and Post Interview
 
+**Participant 1 (P1) - Transcript Analysis** 
+***Transcripts are attached in***
+
+**Task Performance Summary**
+- **Task 1 (Bin Overflow)**: Successfully navigated to Task Manager, understood task creation process, and considered notification mechanisms.
+- **Task 2 (Notification Response & Supply Report)**: Checked Task Manager for duty assignments, navigated to Supply Stock to report dish soap shortage, understood assignment system.
+- **Task 3 (House Notes & Shopping)**: Correctly identified House Notes for communication, used Supply Stock to check shopping needs, demonstrated understanding of dual functionality.
+- **Task 4 (Glancing)**: Effectively scanned interface, understood task assignments, supply status, and house notes without explicit interaction.
 
 
+  **Participant 2 (P2) - Observations**
+
+- Missed notification initially, relied on Task Manager to create tasks
+- Found task creation easy but interface took time to understand
+- Noticed Recent Activities and House Notes features
+- Questions raised: "Can I edit flatmates' names?"
+- Felt Task Manager was cluttered with too much text
+- Prefers both mobile and physical screen modalities
+- Wants notification when kitchen becomes empty
+- Values system over group chat: "No need to nag someone," but hesitates to call people out
+
+
+**Key Insights**
+
+
+**Strengths**
+
+- 1. **Fairness benefits** - Addressing Grudin's Disparity Problem
+- Both participants immediately recognized the fairness benefits:
+
+- P1: "Without the system, it'd be really hard to know if someone has done the duty or not"
+- P2: "Better than group chat - no need to nag someone"
+
+This validates our core design goal of making invisible work visible (Schmidt & Bannon, 1992) and addressing Grudin's (1988) disparity between who does work and who benefits.
+
+- 2. **Social concept Accepted**
+
+ 
+-P1 on names being visible: "By calling the names, we would be more... responsible for the situation"
+- Accountability mechanisms viewed as positive, not intrusive
+
+
+- **3. Multi-Modal Interaction Validated**
+- Both participants strongly preferred having both screen and mobile notifications:
+
+- P1: "You're always using your phone... doing it both ways is like a very good option"
+- Confirms context-aware computing needs
+- Validates ubicomp approach over single-device design
+
+- **4. Awareness Achieved (Partially)**
+- P1 on glanceability: Could understand "whose task is what" and "if we need any supply stock" through brief scanning
+
+- **5. Superior to Existing Communication Methods**
+- P1: "In the group chat, some people just don't respond... with kitchen cat, they would be more responsible"
+- Validates "beyond being there" principle (Hollan & Stornetta, 1992)
+- Asynchronous, persistent visibility more effective than synchronous messaging
+
+
+**Critical Issues & Improvements Needed**
+
+
+- 1. **Notification Visibility Failure** : P2 missed notification entirely
+- Design flaw: Notifications should be visible clearly but not seem like a punishment
+- Recommendation: Increase notification prominence through size, color contrast, animation, or positioning
+
+- 2. **Information Overload & Text-Heavy Design**
+- Consistent across both participants:
+- P1: "If there would be more pictures, it would be easy to comprehend"
+- P2: "Task Manager cluttered, too much text"
+- Tradeshow feedback: "Supplies are too text heavy"
+  
+- Recommendations:
+- Replace text descriptions with icons/images for supplies
+- Use visual hierarchy and progressive disclosure
+- Implement task previews instead of full descriptions
+- Add pictorial representations for common items
+
+
+- 3. **Learning Curve & Initial Confusion**
+- P2: "Took some time to understand the interface"
+- Suggests poor information architecture
+- Contradicts goal of natural, intuitive interaction
+-Recommendation: Simplified onboarding, clearer visual hierarchy, reduced initial cognitive load
+
+- 4. **Lack of Editability & Control**
+- P2 questioned: "Can I edit flatmates' names?"
+- Users want control over household configuration
+- System feels rigid without customization options
+- Recommendation: Add household member management features, editable profiles, customizable categories
+
+
+-5. **Task Manager Perceived as Cluttered**
+- Both participants defaulted to Task Manager for everything, but:
+- P2: "Task Manager cluttered"
+- Users forced into one interface for multiple needs
+- Navigation burden contradicts micro-interaction goals
+
+-Recommendation:
+-Separate urgent tasks into prominent dashboard widget
+-Use filtering/sorting options ("show my tasks only" - from tradeshow feedback)
+-Reduce clicks needed to access critical information
+
+
+- 6. **Queue Feature Demand**
+- P2: "Prefers to get notified when kitchen is empty"
+- Tradeshow feedback on queue curiosity
+- Recommendation: Prioritize kitchen queue implementation in next iteration
 
 ---
 
