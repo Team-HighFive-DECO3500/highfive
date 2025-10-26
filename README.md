@@ -6,16 +6,6 @@ HighFive is a social cooking coordination platform developed for **DECO3500 Soci
 
 ---
 
-## Table of Contents
-
-- [Prototype](#prototype)
-- [Docs](#docs)
-- [Assets](#assets)
-- [Promotional](#promotional)
-- [Wiki Pages](#wiki-pages)
-
----
-
 ## How to Run / Use
 
 The prototype currently runs **locally** and can be opened directly in a web browser — there is no online deployment yet.
@@ -35,14 +25,5 @@ This is the simplest and most reliable way to preview the app and interact with 
    ```bash
    npm install
    npm start
-
----
-
-## Links
-
-- [Prototype Link](#)
-- [Poster](#)
-- [Video](#)
-- [Project Website](#)
 
 ---
