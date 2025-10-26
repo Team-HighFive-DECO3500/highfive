@@ -199,13 +199,28 @@ Semi-structured interview with 5 questions.
 **Stage 4: Closing**
 
 
-### Data Collection methods
+### 3. Data Collection methods
 
 
 - Audio Recording (with consent)
 - Observer Notes
 
 ---
+### 4. Results for Think aloud and Post Interview
+
+
+
+
+
+
+### 5. Feedback from Tradeshow
+
+**Tradeshow Overview**
+
+---
+
+
+
 
 ---
 ### References
