@@ -41,6 +41,11 @@ The task manager allows housemates to create tasks with specific categories incl
 
 SupplyWorm manages household supplies through a friendly, non-judgmental interface. Users report supply issues with urgency levels indicating whether items are running low, empty, or expired. Community notes provide context and updates so housemates can communicate about specific supply situations. Attribution shows who noticed problems, effectively distributing the mental load of tracking household supplies across all residents rather than burdening one organized person. Visual status indicators reduce cognitive effort by making information glanceable, supporting the ambient information principle from mobile computing theory.
 
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/7ebb2e7c-3b3a-46aa-b441-e873742d9e67" />
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/c5a6955f-5e58-4297-a35d-b714d3377a54" />
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/432c063d-996c-49da-a11c-18ca6922efe3" />
+
+
 **Design Rationale**
 
 Our current design addresses previous challenges by fundamentally restructuring how value is created and distributed. Reducing barriers to entry was paramount. The system requires no account setup or complex onboarding, respects housemates' time by keeping interactions brief, and ensures every interaction provides immediate personal value rather than just group benefit. Automatic activity logging eliminates manual status updates that created work-benefit disparities in our first design. This approach directly addresses Grudin's critical mass problem by making the system useful even for early adopters when few others are participating.
@@ -65,6 +70,9 @@ Qualitative feedback revealed specific pain points that quantitative metrics alo
 
 We implemented several changes in response to this feedback. We reduced text density across all screens, replacing explanatory text with icons and visual indicators wherever possible. We added task previews to the dashboard for quick scanning, showing the task name and assignee without requiring navigation. We created visual distinction for active user profiles using color coding and larger profile pictures. We simplified supply status displays with icons and color coding that communicate urgency at a glance. These improvements demonstrate our commitment to evidence-based iteration, using real user feedback to refine the design rather than defending our initial choices.
 
+<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/6bc803a8-246d-4ae4-8cc2-4b7bca9ce09e" />
+
+
 **Theoretical Foundations**
 Our design decisions are explicitly informed by CSCW and mobile computing theory, grounding our work in established research rather than intuition or trends. Schmidt's 2002 paper on awareness in CSCW taught us to design for specific types of awareness rather than vague notions of "staying connected." We focused on task status awareness asking what needs doing right now, contribution awareness showing who's doing what, and supply awareness indicating what's running low. This specificity prevented the conceptual confusion Schmidt warned against where "awareness" becomes a meaningless umbrella term that doesn't guide concrete design decisions.
 
@@ -76,7 +84,7 @@ Hollan and Stornetta's 1992 "Beyond Being There" paper fundamentally reframed ho
 
 Loke and Matthews' 2020 work on ethical design thinking ensured we embedded ethical considerations throughout the design process rather than treating ethics as a final checklist. We prioritized transparency so users know what information is visible and to whom, avoiding hidden surveillance. We implemented opt-in presence where housemate avatars show availability without tracking location or activity. We maintained a non-judgmental tone through friendly mascots that reduce stress and guilt around household responsibilities. We used inclusive language with clear, plain text accessible to diverse users including international students and people with varying literacy levels. These ethical commitments reflect our understanding that design choices encode social values and power relationships, as Winner argued in his 1980 paper on the politics of artifacts.
 
-#**Conclusion**
+**Conclusion**
 
 KitchenKat evolved from a complex multi-feature platform to a focused coordination tool by grounding design decisions in social and mobile computing theory at every stage. Our iterative process, driven by research, evaluation, and critical reflection on foundational CSCW literature, demonstrates that effective social computing isn't about adding social features or building the most comprehensive system. It's about deeply understanding coordination practices in specific contexts and designing systems that support them without creating new problems or imposing unsustainable burdens on users.
 
