@@ -437,10 +437,6 @@ For the tradeshow, we created a tangible prototype to demonstrate KitchenKat's c
 - **Coordination Theory:** Supporting multi-user task management and shared spaces.  
 - **User Control & Customization:** Empowering users to tailor their experience.  
 
----
-
-
-
 
 ---
 ### References
