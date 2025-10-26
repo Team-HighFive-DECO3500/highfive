@@ -13,7 +13,7 @@
 
 ### Think Aloud Protocol with Post-Interview
 
-We have decided to use Think Aloud method combined with semi-structured post-interview questions as our evaluation methodology. This approach well-suited for evaluating KitchenKat's social and mobile computing dimensions.
+We have decided to use Think Aloud method combined with post-interview questions as our evaluation methodology. This approach well-suited for evaluating KitchenKat's social and mobile computing dimensions.
 
 ### Rationale for Think Aloud Protocol
 
@@ -33,7 +33,7 @@ KitchenKat is fundamentally a social coordination tool designed to make invisibl
 
 3. **Contextual Insights**
 
-The system operates across through multiple contexts like physical wall-mounted device in the kitchen and through mobile notifications. Think aloud allows us to observe how users navigate this ubicomp environment (Weiser, 1991; Abowd & Mynatt, 2000) and understand their context-switching behaviors. Participants' verbalized thoughts reveal their mental models about when and how to use different interaction modes.
+The system operates across through multiple contexts like physical wall-mounted device in the kitchen and through mobile notifications. Think aloud allows us to observe how users navigate this ubicomp environment (Weiser, 1991; Abowd & Mynatt, 2000) and understand their context-switching behaviors. Participants' thoughts reveal their mental models about when and how to use different interaction modes.
 
 4. **Highlights Fairness Perceptions**
 
