@@ -52,16 +52,24 @@ Recent activities create gentle accountability and recognition for completed wor
 KitchenKat is built on principles from social and mobile computing research:
 
 Awareness without surveillance: See what needs doing and who's contributing, without tracking or judgment
+
 Immediate individual value: Every interaction helps you personally, not just the group
+
 Asynchronous coordination: Respect varied schedules—no need for meetings or real-time chat
+
 Fair work distribution: Make invisible labour visible and ensure everyone contributes
+
 Calm technology: Information is there when you need it, invisible when you don't
+
 
 **Who It's For**
 
 Students in shared accommodation juggling classes, work, and social lives
+
 Young professionals in sharehouses navigating communal living for the first time
+
 Any household where coordination feels harder than it should be
+
 
 **Development Journey**
 
@@ -70,27 +78,40 @@ KitchenKat emerged from rigorous research into healthy eating habits among unive
 **Key milestones:**
 
 Research phase identifying coordination pain points in shared kitchens
+
 Initial prototype with scanning, groups, and recipe features (too complex)
+
 Design pivot based on evaluation and theoretical reflection
+
 Current prototype focused on task coordination and supply management
+
 Tradeshow exhibition with public feedback and iteration
+
 
 **Technology Stack**
 
 Interface Design: Figma for prototyping and visual design
+
 Interaction Paradigm: Wall-mounted display (primary) with mobile companion app (future)
+
 Theoretical Foundation: Schmidt (awareness), Grudin (fairness), Clark & Brennan (grounding), Hollan & Stornetta (beyond being there)
+
 
 **Team**
 Team Highfive — DECO3500 Social and Mobile Computing
+
 University of Queensland, Semester 2 2025
 
 **Explore the repository:**
 
 Design Process: Detailed evolution from initial concept to current prototype
+
 Research Findings: User interviews, literature review, and domain analysis
+
 Evaluation Results: Think-aloud protocols, tradeshow feedback, and iterations
+
 Prototype and code: Interactive Figma prototype and demonstration materials
+
 
 
 **Project Vision**
@@ -100,6 +121,9 @@ Prototype and code: Interactive Figma prototype and demonstration materials
 We believe good design fades into the background, supporting the social rhythms of shared life without demanding attention or creating new friction. KitchenKat represents our attempt to build technology that serves people rather than the other way around.
 
 Course: DECO3500 Social and Mobile Computing
+
 Institution: University of Queensland
+
 Year: 2025
+
 Domain: Healthy Eating Habits 
