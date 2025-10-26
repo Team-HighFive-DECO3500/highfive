@@ -1,6 +1,46 @@
-# Evaluation
+# Evaluations - This file contains evaluations for our final idea - KitchenKat, older idea - collaborative kitchen platform and feedback from the Tradeshow.
 
-# Evaluation 1 results for collaborative cooking platform
+
+
+# Evaluation 1 - KitchenKat
+
+## KitchenKat Evaluation Protocol
+
+## 1. Evaluation Methodology
+
+## Think Aloud Protocol with Post-Interview
+We have decided to use Think Aloud method combined with semi-structured post-interview questions as our evaluation methodology. This approach well-suited for evaluating KitchenKat's social and mobile computing dimensions.
+
+## Rationale for Think Aloud Protocol
+
+### Why Think Aloud?
+
+Think aloud protocol is an evaluation method where participants verbalize their thoughts, feelings, and actions while interacting with the system (Ericsson & Simon, 1993). For KitchenKat, this method offers several advantages:
+
+1. Captures thought process and mental models
+Think aloud reveals users' expectations, confusions, and decision-making processes as they happen (Nielsen, 1993). Since KitchenKat expects to provide ambient awareness (Schmidt, 2002) and calm technology (Weiser, 1991), we need to understand whether users naturally understand the system's information architecture without extra guidance. The protocol allows us to identify situations or moments where the design successfully fades into the background versus moments where it requires unexpected cognitive effort.
+
+
+2. Reveals Social Interpretation
+KitchenKat is fundamentally a social coordination tool designed to make invisible articulation work visible (Kraal, 2014). Think aloud helps us understand how users interpret social cues embedded in the interface - such as task attribution, presence indicators (avatars), and activity feeds. As users verbalize their reactions to seeing housemates' contributions, we gain insight into whether the design successfully promotes social translucence (Erickson & Kellogg, 2000) or inadvertently creates pressure and discomfort.
+
+
+3. Contextual Interaction Insights
+Our system operates across multiple contexts - both as a physical kitchen wall-mounted device and through mobile notifications. Think aloud allows us to observe how users navigate this ubicomp environment (Weiser, 1991; Abowd & Mynatt, 2000) and understand their context-switching behaviors. Participants' verbalizations reveal their mental models about when and how to use different interaction modalities.
+
+4. Uncovers Fairness Perceptions
+A core design goal is addressing Grudin's disparity problem (1988, 1994) - ensuring those who do the work receive recognition. Think aloud captures participants' immediate reactions to fairness mechanisms like task attribution ("reported by Emma") and visible contribution tracking. Their spontaneous comments reveal whether these features feel motivating, fair, stressful, or potentially divisive.
+
+5. Identifies Mobile Micro-Interaction Patterns
+Think aloud is particularly effective for evaluating mobile micro-interactions (Oulasvirta et al., 2005) - the quick, glanceable actions KitchenKat is designed to support (marking tasks complete, checking who's around, reading house notes). Users' verbalizations during these brief interactions reveal whether the interface supports the rapid, lightweight coordination that mobile and ubiquitous computing should enable
+
+
+
+
+
+
+
+# Evaluation 0 - Results for collaborative cooking platform
 Task 1 – Discover and Join a Cooking Group
 Please imagine you want to cook socially with others. Look through the available cuisine groups for example, Mexican or Indian. Choose a group to join and send a request.
 As you go, tell me what you’re looking for in a group and why you’d choose one over another.
